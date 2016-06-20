@@ -1,0 +1,74 @@
+Week7a
+        (Problem, Part): attempt_count
+        (u'1', u'1'): 309,
+        (u'2', u'1'): 775,
+        (u'2', u'2'): 578,
+        (u'2', u'3'): 281,
+        (u'2', u'4'): 284,
+        (u'5', u'1'): 1610,
+        (u'5', u'2'): 1311,
+        (u'5', u'3'): 474,
+        (u'5', u'4'): 229,
+        (u'5', u'5'): 237,
+        (u'6', u'1'): 476,
+        (u'6', u'2'): 887,
+        (u'6', u'3'): 622,
+        (u'6', u'4'): 25,
+        (u'6', u'5'): 24,
+        (u'6', u'6'): 17,
+        (u'6', u'7'): 19,
+        (u'6', u'8'): 15,
+        (u'7', u'1'): 415,
+        (u'7', u'2'): 435,
+        (u'7', u'3'): 336,
+        (u'7', u'4'): 317,
+        (u'7', u'5'): 319,
+        (u'8', u'1'): 333,
+        (u'8', u'2'): 368,
+        (u'9', u'1'): 649,
+        (u'9', u'2'): 693,
+        (u'9', u'3'): 627,
+        (u'9', u'4'): 664,
+        (u'9', u'5'): 1148
+
+Assigned problem file name:
+    +--------+------------+------------------------------------------------+
+    | set_id | problem_id | source_file                                    |
+    +--------+------------+------------------------------------------------+
+    | Week7a |          1 | Reorganized/HypothesisTesting/error.pg         |
+    | Week7a |          2 | Reorganized/HypothesisTesting/psychic.pg       |
+    | Week7a |          3 | Reorganized/HypothesisTesting/paired_t_test.pg |
+    | Week7a |          4 | Reorganized/HypothesisTesting/pooled.pg        |
+    | Week7a |          5 | Reorganized/HypothesisTesting/gust63.pg        |
+    | Week7a |          6 | local/Reorganized/HypothesisTesting/gust75.pg  |
+    | Week7a |          7 | local/Reorganized/HypothesisTesting/Chi2.2.pg  |
+    | Week7a |          8 | local/Reorganized/HypothesisTesting/Chi2.3.pg  |
+    | Week7a |          9 | local/setTestPreparationST/prob4.pg            |
+    +--------+------------+------------------------------------------------+
+
+Problem 1: Multiple choice problem
+
+Problem 2:
+$a = Compute("0.05/sqrt(0.16/200)");
+$q = Compute("Q($a)");
+
+A noted psychic was tested for extrasensory perception. The psychic was presented
+with 200 cards face down and asked to determine if the card were one of five symbols.
+The psychic was correct in 50 cases. Let p represent the probability that the psychic
+correctly identifies the symbol on the card in a random trial. Assume the 200 trials
+can be treated as a simple random sample.
+
+Suppose you wished to see if there were evidence that the psychic is
+doing better than just guessing. To do this, you test the hypotheses [`H_0 : p = .20`]
+versus [`H_{alternative} : p > .20`].
+
+What is the z-score? [__________________________________________]{$a}
+
+What is the p-value for the test statistic? (You can use Q function in the answer) [_________]{$q}
+
+Can you reject at the .05 significance level? (answer "yes" or "no") [_______]{"yes"}
+
+Can you reject at the .01 significance level? (answer "yes" or "no") [_______]{"no"}
+
+
+Problem 5:
