@@ -1,0 +1,8 @@
+*.pyc
+build/
+dist/
+*.swp
+env
+.swork.activate
+env3
+MANIFEST
