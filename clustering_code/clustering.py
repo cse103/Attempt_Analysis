@@ -17,7 +17,9 @@ def cluster(Week, problem_id):
     ### Make params as inputs to function find_matches ###
     params = defaultdict(list)
     for (pro, par) in data.keys():
-        if pro == problem_id:
+        if pro == problem_id and \
+        data[(pro,par)][0]['answer'] != '<pre style="text-align:left; padding-left:.2em">yes</pre>' and \
+        data[(pro,par)][0]['answer'] != '<pre style="text-align:left; padding-left:.2em">no</pre>':
             params[par] = cluster_functions.make_params(pro, par, data)
 
     ### Create clusters, if no hits, clustered as 'Nothing' ###
