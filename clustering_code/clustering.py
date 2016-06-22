@@ -30,7 +30,8 @@ def cluster(Week, problem_id):
             final_pairs = cluster_functions.find_matches(p)
             if len(final_pairs)>0:
                 sorted_final = sorted(final_pairs,key=lambda x: x[0])
-                problem_clusters[part][str(sorted_final)] += [p['attempt']]
+                sorted_node = [s[0] for s in sorted_final]
+                problem_clusters[part][str(sorted_node)] += [p['attempt']]
             else:
                 problem_clusters[part]['Nothing'] += [p['attempt']]
 

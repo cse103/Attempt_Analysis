@@ -48,7 +48,10 @@ def find_Hits(List,tol = 1+1e-6):
             ratio=item1[0]/item2[0]
         else:
             ratio = 0
-        if item1[1]!=item2[1] and ratio < tol and ratio > (1/tol):
+        # get the tree node
+        node1 = get_top_node(item1)
+        node2 = get_top_node(item2)
+        if item1[1]!=item2[1] and ratio < tol and ratio > (1/tol) and node1 == node2:
             if item1[1]=='c':
                 Hits.append((item1,item2))
             elif item2[1]=='c':
@@ -121,6 +124,18 @@ def get_span(tree):
         return tree[2][0][2]
     else:
         print 'Error in get_span'
+        return None
+
+
+def get_top_node(tree):
+    """return the starting index and ending index
+        used to determine dominating hits"""
+    if tree[2][0]=='X':
+        return tree[2][3]
+    elif type(tree[2][0])==list:
+        return tree[2][0][3]
+    else:
+        print 'Error in get_top_node'
         return None
 
 
