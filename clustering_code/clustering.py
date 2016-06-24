@@ -31,9 +31,9 @@ def cluster(Week, problem_id):
             if len(final_pairs)>0:
                 sorted_final = sorted(final_pairs,key=lambda x: x[0])
                 sorted_node = [s[0] for s in sorted_final]
-                problem_clusters[part][str(sorted_node)] += [p['attempt']]
+                problem_clusters[part][str(sorted_node)] += [(p['answer'], p['attempt'], sorted_final)]
             else:
-                problem_clusters[part]['Nothing'] += [p['attempt']]
+                problem_clusters[part]['Nothing'] += [(p['answer'], p['attempt'])]
 
     return problem_clusters
 
