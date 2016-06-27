@@ -152,7 +152,7 @@ def make_params(problem_id, part_id, problem_part_collection):
         count += 1
         if d['answer']:
             parse_tree = webwork_parser.parse_webwork(d['answer'])
-            if parse_tree == None:
+            if parse_tree[0] == None:
                 print 'parse_tree empty'
                 continue
             eval_tree = Eval_parsed.eval_parsed(parse_tree[0])
@@ -161,7 +161,7 @@ def make_params(problem_id, part_id, problem_part_collection):
                 continue
 
             parse_tree_att = webwork_parser.parse_webwork(d['attempt'])
-            if parse_tree_att == None:
+            if parse_tree_att[0] == None:
                 print 'parse_tree empty'
                 continue
             eval_tree_att = Eval_parsed.eval_parsed(parse_tree_att[0])

@@ -8,7 +8,7 @@ from parsetrees.expr_parser import Eval_parsed
 import pickle
 from collections import defaultdict
 import cluster_functions
-
+from itertools import combinations
 
 def cluster(Week, problem_id):
     ### Load data ###
@@ -33,7 +33,31 @@ def cluster(Week, problem_id):
                 sorted_node = [s[0] for s in sorted_final]
                 problem_clusters[part][str(sorted_node)] += [(p['answer'], p['attempt'], sorted_final)]
             else:
-                problem_clusters[part]['Nothing'] += [(p['answer'], p['attempt'])]
+                if p['attempt'].isdigit():
+                    problem_clusters[part]['Digits'] += [(p['answer'], p['attempt'], 'digit')]
+                else:
+                    problem_clusters[part]['Nothing'] += [(p['answer'], p['attempt'], p['att_tree'], p['user_id'])]
+
+        # Cluster Nothing
+        nothing_clusters = defaultdict(list)
+        initial_nothing = problem_clusters[part]['Nothing'][:]
+        for (i, j) in combinations(problem_clusters[part]['Nothing'], 2):
+            tmp = {'user_id':j[3], 'answer':i[1], 'attempt':j[1],
+                                'ans_tree':i[2][:], 'att_tree':j[2][:]}
+            matches = cluster_functions.find_matches(tmp)
+            if len(matches) > 0:
+                sorted_final = sorted(matches,key=lambda x: x[0])
+                sorted_node = [s[0] for s in sorted_final]
+                if not (i[1], i[3]) in nothing_clusters[str(sorted_node)]:
+                    nothing_clusters[str(sorted_node)] += [(i[1], i[3])]
+                    if i in initial_nothing:
+                        initial_nothing.remove(i)
+                if not (j[1], j[3]) in nothing_clusters[str(sorted_node)]:
+                    nothing_clusters[str(sorted_node)] += [(j[1], j[3])]
+                    if j in initial_nothing:
+                        initial_nothing.remove(j)
+        problem_clusters[part]['Nothing_clusters'] = nothing_clusters
+        problem_clusters[part]['Nothing'] = initial_nothing
 
     return problem_clusters
 
