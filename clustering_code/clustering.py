@@ -27,37 +27,50 @@ def cluster(Week, problem_id):
     for part in params:
         problem_clusters[part]=defaultdict(list)
         for p in params[part]:
+            if len(p['att_tree']) > 1:
+                if p['att_tree'][0] == 'X':
+                    att = p['att_tree'][1]
+                else:
+                    att = p['att_tree'][0][1]
+                if p['ans_tree'][0] == 'X':
+                    ans = p['att_tree'][1]
+                else:
+                    ans = p['ans_tree'][0][1]
+                if att * ans < 0:
+                    problem_clusters[part]['Wrong_Sign'] += [(p['answer'], p['attempt'])]
+                    continue
+                elif float(ans).is_integer() and not float(att).is_integer():
+                    problem_clusters[part]['Fraction'] += [(p['answer'], p['attempt'])]
+                    continue
             final_pairs = cluster_functions.find_matches(p)
             if len(final_pairs)>0:
                 sorted_final = sorted(final_pairs,key=lambda x: x[0])
                 sorted_node = [s[0] for s in sorted_final]
                 problem_clusters[part][str(sorted_node)] += [(p['answer'], p['attempt'], sorted_final)]
             else:
-                if p['attempt'].isdigit():
-                    problem_clusters[part]['Digits'] += [(p['answer'], p['attempt'], 'digit')]
+                if p['attempt'].isdigit() or len(p['att_tree']) == 1:
+                    problem_clusters[part]['Digits'] += [(p['answer'], p['attempt'])]
                 else:
-                    problem_clusters[part]['Nothing'] += [(p['answer'], p['attempt'], p['att_tree'], p['user_id'])]
-
-        # Cluster Nothing
-        nothing_clusters = defaultdict(list)
-        initial_nothing = problem_clusters[part]['Nothing'][:]
-        for (i, j) in combinations(problem_clusters[part]['Nothing'], 2):
-            tmp = {'user_id':j[3], 'answer':i[1], 'attempt':j[1],
-                                'ans_tree':i[2][:], 'att_tree':j[2][:]}
-            matches = cluster_functions.find_matches(tmp)
-            if len(matches) > 0:
-                sorted_final = sorted(matches,key=lambda x: x[0])
-                sorted_node = [s[0] for s in sorted_final]
-                if not (i[1], i[3]) in nothing_clusters[str(sorted_node)]:
-                    nothing_clusters[str(sorted_node)] += [(i[1], i[3])]
-                    if i in initial_nothing:
-                        initial_nothing.remove(i)
-                if not (j[1], j[3]) in nothing_clusters[str(sorted_node)]:
-                    nothing_clusters[str(sorted_node)] += [(j[1], j[3])]
-                    if j in initial_nothing:
-                        initial_nothing.remove(j)
-        problem_clusters[part]['Nothing_clusters'] = nothing_clusters
-        problem_clusters[part]['Nothing'] = initial_nothing
+                    problem_clusters[part]['Nothing'] += [(p['answer'], p['attempt'], p['att_tree'], p['user_id'], p['user_var'], p['timestamp'])]        # # Cluster Nothing
+        # nothing_clusters = defaultdict(list)
+        # initial_nothing = problem_clusters[part]['Nothing'][:]
+        # for (i, j) in combinations(problem_clusters[part]['Nothing'], 2):
+        #     tmp = {'user_id':j[3], 'answer':i[1], 'attempt':j[1],
+        #                         'ans_tree':i[2][:], 'att_tree':j[2][:]}
+        #     matches = cluster_functions.find_matches(tmp)
+        #     if len(matches) > 0:
+        #         sorted_final = sorted(matches,key=lambda x: x[0])
+        #         sorted_node = [s[0] for s in sorted_final]
+        #         if not (i[1], i[3]) in nothing_clusters[str(sorted_node)]:
+        #             nothing_clusters[str(sorted_node)] += [(i[1], i[3])]
+        #             if i in initial_nothing:
+        #                 initial_nothing.remove(i)
+        #         if not (j[1], j[3]) in nothing_clusters[str(sorted_node)]:
+        #             nothing_clusters[str(sorted_node)] += [(j[1], j[3])]
+        #             if j in initial_nothing:
+        #                 initial_nothing.remove(j)
+        # problem_clusters[part]['Nothing_clusters'] = nothing_clusters
+        # problem_clusters[part]['Nothing'] = initial_nothing
 
     return problem_clusters
 

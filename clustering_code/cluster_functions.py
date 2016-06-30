@@ -169,7 +169,7 @@ def make_params(problem_id, part_id, problem_part_collection):
                 print 'eval_tree empty'
                 continue
 
-            params += [{'user_id':d['user_id'], 'answer':d['answer'], 'attempt':d['attempt'],
+            params += [{'user_id':d['user_id'], 'user_var':d['var'], 'timestamp':d['timestamp'], 'answer':d['answer'], 'attempt':d['attempt'],
                         'ans_tree':eval_tree, 'att_tree':eval_tree_att}]
         else:
             print 'no answer'
