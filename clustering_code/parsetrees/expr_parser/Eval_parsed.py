@@ -90,7 +90,7 @@ def eval_parsed(e, label='R'):
             elif f=='-':
                 ans=-v
             elif f=='!':
-                if v < 100000:
+                if v < 1000:
                     ans=factorial(v)
                 else:
                     raise Exception('%s is too large to apply factorial'%v)
