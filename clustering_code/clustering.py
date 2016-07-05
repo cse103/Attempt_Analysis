@@ -10,8 +10,11 @@ from collections import defaultdict
 import cluster_functions
 from itertools import combinations
 from datetime import datetime as dt
+from datetime import timedelta as td
 
 def cluster(Week, problem_id):
+    ## We only care about attempts after 3 minutes in nothing cluster
+    min_diff = 3
     ### Load data ###
     data = pickle.load(open('../2015data/'+Week+'_data.pkl','rb'))
     data_timestamp = pickle.load(open('../2015data/'+Week+'_correct_timestamp.pkl','rb'))
@@ -90,16 +93,27 @@ def cluster(Week, problem_id):
                 if not user_id in no_match_cluster:
                     no_match_cluster[user_id] = {'first_attempt':ini_time_str}
                     for d in dependency_list+[part]:
-                            if data_timestamp[user_id][(problem_id, d)]:
-                                correct_attempt = data_timestamp[user_id][(problem_id, d)][0]
-                                t = dt.strptime(data_timestamp[user_id][(problem_id, d)][1], "%Y-%m-%d %H:%M:%S")
-                                key = 'part' + str(d) + '_correct_attempt'
-                                no_match_cluster[user_id][key] = [str(t-ini_time), correct_attempt]
+                        if data_timestamp[user_id][(problem_id, d)]:
+                            correct_attempt = data_timestamp[user_id][(problem_id, d)][0]
+                            t = dt.strptime(data_timestamp[user_id][(problem_id, d)][1], "%Y-%m-%d %H:%M:%S")
+                            key = 'part' + str(d) + '_correct_attempt'
+                            no_match_cluster[user_id][key] = [str(t-ini_time), correct_attempt]
                     t = dt.strptime(n[-1], "%Y-%m-%d %H:%M:%S")
                     no_match_cluster[user_id]['part'+str(part)+'_incorrect_attempt'] = [(str(t-ini_time), n[1])]
                 else:
                     t = dt.strptime(n[-1], "%Y-%m-%d %H:%M:%S")
                     no_match_cluster[user_id]['part'+str(part)+'_incorrect_attempt'] += [(str(t-ini_time), n[1])]
+        ## Remove attempts within min_diff defined at the top
+        updated_cluster = {}
+        for user in no_match_cluster:
+            last_att_time = no_match_cluster[user]['part'+str(part)+'_incorrect_attempt'][-1][0]
+            if 'day' not in last_att_time:
+                t = dt.strptime(last_att_time, "%H:%M:%S")
+                time_diff = td(hours=t.hour, minutes=t.minute, seconds=t.second)
+                if time_diff.total_seconds() < 60 * min_diff:
+                    print 'remove user:', no_match_cluster[user]
+                    continue
+            updated_cluster[user] = no_match_cluster[user]
         no_match_clusters[part] = no_match_cluster
     return problem_clusters, no_match_clusters
 
