@@ -15,7 +15,8 @@ Problem 14
 %* The part YYY of your answer is correct, it can also be written as (25**$n2), it is the answer to part 2
 %===============
 %
-%Hint: Suppose out of 350 graduate students there are 200 that did not take any AI class. How many %graduate students took at least one AI class? [__________]{150}
+%Hint: Suppose out of 350 graduate students there are 200 that did not take any AI class. 
+% How many %graduate students took at least one AI class? [__________]{150}
 %
 %======================================================================================================
 
