@@ -14,7 +14,8 @@
 
 
 ### Mistake Group ['R.0', 'R.1'] of size 12
-Hint = """ Please write hint here """
+Hint1 = """ If product: How mnany words are there of length 2? [_____]{26**2} """
+Hint1 = """ If P(.,.) or C(.,.): How many times can the letter 'a' appear in the string? [_____]{$n2} """
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
