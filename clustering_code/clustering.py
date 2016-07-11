@@ -88,7 +88,7 @@ def cluster(Week, problem_id):
 
             dependency_timestamp = [dt.strptime(data_timestamp[user_id][(problem_id, d)][1], "%Y-%m-%d %H:%M:%S") for d in dependency_list if data_timestamp[user_id][(problem_id, d)]]
             if any(time < t for t in dependency_timestamp):
-                problem_clusters[part]['redirect'].append(n)
+                problem_clusters[part]['redirect'].append((n[0],n[1]))
             else:
                 if not user_id in no_match_cluster:
                     no_match_cluster[user_id] = {'first_attempt':ini_time_str}

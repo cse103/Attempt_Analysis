@@ -11,9 +11,10 @@ def write_to_file(problem_id):
     to_file = open(file_name, 'w')
     
     for part_id in no_matching_cluster:
-        to_file.write('Part ')
+        to_file.write('============= Part ')
         to_file.write(str(part_id))
-        to_file.write('\n')
+        to_file.write(' =============')
+        to_file.write('\n\n')
         
         i=0
         for a in no_matching_cluster[part_id]:
