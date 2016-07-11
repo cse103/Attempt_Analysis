@@ -1,5 +1,5 @@
 		Problem 14
-    $n2 = random(3,6,1);
+		$n2 = random(3,6,1);
 
     Lower case English letters are from "a-z". The order matters here. For example, "ab" is a different string from "ba". Repetition is allowed, i.e. the same letter can occur multiple times in a string.
     1. How many strings of length [$n2] consisting of lower case English letters are there?  [__________]{Compute("26**$n2")}
@@ -14,8 +14,9 @@
 
 
 ### Mistake Group ['R.0', 'R.1'] of size 12
-Hint1 = """ If product: How mnany words are there of length 2? [_____]{26**2} """
-Hint1 = """ If P(.,.) or C(.,.): How many times can the letter 'a' appear in the string? [_____]{$n2} """
+   
+    Hint1 = """ If product: How mnany words are there of length 2? [_____]{26**2} """
+    Hint2 = """ If P(.,.) or C(.,.): How many times can the letter 'a' appear in the string? [_____]{$n2} """
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
