@@ -9,14 +9,14 @@ from collections import defaultdict
 from StringIO import StringIO
 import prettytable
 
-def write_to_file(problem_id):
-    cluster = pickle.load(open('Week2_'+problem_id+'_cluster.pkl', 'rb'))
-    no_matching_cluster = pickle.load(open('Week2_'+problem_id+'_no_match_cluster.pkl', 'rb'))
+def write_to_file(problem_id, set_id):
+    cluster = pickle.load(open(set_id + '/' + set_id+'_'+problem_id+'_cluster.pkl', 'rb'))
+    no_matching_cluster = pickle.load(open(set_id + '/' + set_id+'_'+problem_id+'_no_match_cluster.pkl', 'rb'))
 
-    file_name = 'Week2_' + problem_id + '_' + 'clusters.md'
+    file_name = set_id + '/txt/' + set_id + '_' + problem_id + '_' + 'clusters.md'
     to_file = open(file_name, 'w')
 
-    for part_id in cluster:
+    for part_id in sorted(cluster.keys()):
         to_file.write('## Part ')
         to_file.write(str(part_id))
         to_file.write('\n\n')
@@ -77,12 +77,14 @@ def write_to_file(problem_id):
             to_file.write('\n')
             i+=1
             record=no_matching_cluster[part_id][a]
-            for key in ['first_attempt',
-            'part1_incorrect_attempt', 'part1_correct_attempt',
-            'part2_incorrect_attempt', 'part2_correct_attempt',
-            'part3_incorrect_attempt', 'part3_correct_attempt',
-            'part4_incorrect_attempt', 'part4_correct_attempt',
-            'part5_incorrect_attempt', 'part5_correct_attempt']:
+
+            key_list = ['first_attempt']
+            for p_id in xrange(1, int(part_id)+1):
+                s1 = 'part' + str(p_id) + '_incorrect_attempt'
+                s2 = 'part' + str(p_id) + '_correct_attempt'
+                key_list += [s1, s2]
+
+            for key in key_list:
                 if key in record:
                     L=record[key]
                 else:
@@ -108,6 +110,9 @@ def write_to_file(problem_id):
         to_file.write('\n\n\n\n\n\n')
 
 if __name__ == '__main__':
-    print 'Write Week2 cluster into file, please enter the following'
-    problem_id = raw_input('problem_id:')
-    write_to_file(problem_id)
+    print 'Write cluster into file, please enter the following'
+    set_id = raw_input('set_id:')
+    problem_ids = raw_input('problem_ids(seperate with space):')
+    ids = [i for i in problem_ids.split()]
+    for pid in ids:
+        write_to_file(pid, set_id)
