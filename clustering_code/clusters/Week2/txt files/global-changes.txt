@@ -1,0 +1,9 @@
+1) Order attempts first according to the problem part number.
+2) Ignore students which find the correct answer in less than some
+amount (default 1 minute)
+3) report for each problem part, and each cluster, the total number of
+minutes spent attempting to solve the problem. Make this number (as
+well as the number of elements in the cluster) appear at the top.
+4) Make it easy to find the hot spots by using "grep"
+
+

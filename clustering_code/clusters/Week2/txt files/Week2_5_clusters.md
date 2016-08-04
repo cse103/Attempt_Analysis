@@ -13,13 +13,16 @@
 
 ## Part 1
 
+Hint = """yf:  if '!' then "you are over-thinking it. You are choosing a
+sandwich and a piece of fruit, there are 3 possibilities for the
+sandwich and 2 for the piece of fruit, what is the total number of possibilities?"""
+
 ### Mistake Group Digits of size 24
 
 
 
 
 ### Mistake Group ['R.1'] of size 4
-Hint = """ Please write hint here """
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
@@ -57,7 +60,6 @@ Hint = """ Please write hint here """
 
 
 ### No Match Group
-Hint = """ Please write hint here """
 
 0 Student ID:jblynch
 
@@ -116,11 +118,13 @@ Hint = """ Please write hint here """
 
 
 ### Mistake Group ['R.1'] of size 1
-Hint = """ Please write hint here """
+Hint = """yf:  if one factor missing: "it seems like you ignored the k
+possibilities for color/{male/female}/size"""
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
 |0	|11*2*4	|11*4	|[('R.1', 4.0, u'4', u'4')]	|
+
 
 
 

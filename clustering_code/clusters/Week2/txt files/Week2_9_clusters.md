@@ -20,7 +20,7 @@
 
 
 ### Mistake Group ['R.1'] of size 27
-Hint = """ Please write hint here """
+Hint = """ How many digits are there in the range 0-9 ? [___]{10}"""
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
@@ -76,7 +76,12 @@ Hint = """ Please write hint here """
 
 
 ### Mistake Group ['R.0', 'R.1'] of size 3
-Hint = """ Please write hint here """
+Hint = """ if attempt is 10^26 then:
+
+	You gave the correct answer to the question "how many different
+	sequences of 26 digits are there?"
+	
+"""
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|

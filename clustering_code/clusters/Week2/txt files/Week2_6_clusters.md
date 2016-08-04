@@ -15,7 +15,15 @@
 
 
 ### No Match Group
-Hint = """ Please write hint here """
+Hint = """ if attempt has the form 3^a then 
+
+	you gave the correct answer the to the question "how many
+	different strings of lenth a can be formed using the letters 'abc', where a
+	letter can appear more than once, as in 'aba'" 
+	In **this** question, you are asked about the number of strings of
+	length 3 in which each of the letters "abc" appears exactly once.
+
+"""
 
 0 Student ID:dmn009
 
@@ -33,7 +41,7 @@ Hint = """ Please write hint here """
 	first_attempt
 					2015-10-08 00:55:33
 	part1_incorrect_attempt
-					('0:00:00', u'P(3,3)')
+					('0:00:00', u'P(3,3)') <--- this is a correct answer.
 	part1_correct_attempt
 					['0:00:34', u'(3*2)']
 
@@ -101,13 +109,6 @@ Hint = """ Please write hint here """
 					('0:02:13', u'(3*2*1)/(2*1)')
 	part1_correct_attempt
 					['18:22:02', u'3*2*1']
-
-
-
-
-
-
-
 
 
 
