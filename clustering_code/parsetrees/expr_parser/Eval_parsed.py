@@ -1,4 +1,5 @@
 from math import factorial
+from math import sqrt
 import linecache
 import sys, traceback
 from string import replace
@@ -71,6 +72,7 @@ def eval_parsed(e, label='R'):
         
     try:
         log.debug('eval_parsed, e="'+str(e)+'"')
+        #print 'eval_parsed, e=', str(e)
         if type(e)==type(None):
             return 0
         elif is_number(e)==1:
@@ -80,6 +82,9 @@ def eval_parsed(e, label='R'):
 
             if f=='{}':
                 return [[f,None,span,label],op]  # if element is a list, just return as is.
+            elif f=='V' and op=='e':
+                ans = 2.71828183
+                return ['X',ans,span,label]
 
             ev=eval_parsed(op,label+'.0')
             v=get_number(ev)
@@ -96,6 +101,10 @@ def eval_parsed(e, label='R'):
                     raise Exception('%s is too large to apply factorial'%v)
             elif f=='Q':
                 ans= 1-norm.cdf(v)
+            elif f=='Phi':
+                ans = norm.cdf(v)
+            elif f=='sqrt':
+                ans = sqrt(v)
             else:
                 raise Exception('unrecognized unary operator %s in %s'%(f,e))
             return [[f,ans,span,label],ev]
@@ -115,6 +124,10 @@ def eval_parsed(e, label='R'):
             elif f=='^': ans= v1**v2
             elif f=='C':
                 ans= ncr(int(v1), int(v2))
+                try:
+                    float(ans)
+                except OverflowError:
+                    raise Exception('C(%s, %s) is too large and cause over flow'%(v1,v2))
             elif f=='P':
                 ans= npr(int(v1), int(v2))
             else:
