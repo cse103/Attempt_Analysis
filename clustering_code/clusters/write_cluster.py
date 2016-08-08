@@ -30,10 +30,12 @@ def write_to_file(problem_id, set_id):
         sorted_cluster_keys = sorted(cluster_size, key=lambda x:cluster_size[x], reverse=True)
 
         for mistake in sorted_cluster_keys:
+            if mistake == "['R']":
+                continue
             to_file.write('### (')
             to_file.write(str(cluster_size[mistake]))
             to_file.write(') Mistake Group ')
-            to_file.write(str(mistake))
+            to_file.write(mistake)
             to_file.write(' of size ')
             to_file.write(str(cluster_size[mistake]))
             to_file.write('\n')
@@ -49,7 +51,10 @@ def write_to_file(problem_id, set_id):
             	to_file.write('|\t|Answer\t|Attempt\t|Matching sub-exp|\n')
                 to_file.write('|---|---|---|---|\n')
                 count = 0
+                avoid_duplicate = defaultdict(int)
                 for p in group:
+                    if avoid_duplicate[p[1]]:
+                        continue
                     to_file.write('|')
                     to_file.write(str(count))
                     to_file.write('\t|')
@@ -61,10 +66,13 @@ def write_to_file(problem_id, set_id):
                     to_file.write('\t|')
                     to_file.write('\n')
                     count += 1
+                    avoid_duplicate[p[1]] = 1
 
             to_file.write('\n\n\n\n')
 
-        to_file.write('### No Match Group \n')
+        to_file.write('### (')
+        to_file.write(str(len(no_matching_cluster[part_id])))
+        to_file.write(') No Match Group \n')
         to_file.write('""" Please write hint here """\n\n')
         to_file.write('|ID\t|Author\t|Condition\t|Hint Text|\n')
         to_file.write('|---|---|---|---|\n')
