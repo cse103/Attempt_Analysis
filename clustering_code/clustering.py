@@ -84,6 +84,9 @@ def cluster(Week, problem_id):
                 else:
                     ans = p['ans_tree'][0][1]
                 convert_fail = False
+                if att == None:
+                    print "Not correct type"
+                    continue
                 try:
                     float(att)
                 except OverflowError:
