@@ -48,6 +48,8 @@ Assigned problem file name:
 
 Problem 1: Multiple choice problem
 
+
+
 Problem 2:
       $a = Compute("0.05/sqrt(0.16/200)");
       $q = Compute("Q($a)");
@@ -71,7 +73,16 @@ Problem 2:
       Can you reject at the .01 significance level? (answer "yes" or "no") [_______]{"no"}
 
 
+Problem 3: Multiple choice problem
+
+
+Problem 4: Multiple choice problem
+
+
 Problem 5: missing from database
+
+
+
 
 Problem 6:
       Suppose there are 3 species of fish in the world, we are interested
@@ -109,6 +120,9 @@ Problem 6:
 
       This question continues with the next problem.
 
+
+
+
 Problem 7:
       To compute the p-value of rejecting the Null hypothesis we need to know the **number of degrees of freedom** of the distribution. As the size of the space is 3 there are three variables defining the distribution: [`p_1,p_2,p_3`] as these probabilities sum to one there [`v=2`] degrees of freedom. We then use the CDF for the [`\chi^2`] distribution with 2 degrees of freedom to calculate the p-values.
 
@@ -120,6 +134,9 @@ Problem 7:
       * It is possible to reject both of the Null hypotheses:[__________]{+1}
       * It is possible to not reject either of the Null hypotheses: [___________]{+1}
 
+
+
+
 Problem 8:
       Using the data given in the problem regarding the source of a batch of fish we get the following:
       * The p-value associated with rejecting the HA hypothesis is 0.5616
@@ -130,6 +147,9 @@ Problem 8:
 
       * We can reject the hypothesis that the batch is from the pacific ocean [____]{1}
       * We can reject the hypothesis that the batch is from the atlantic ocean [_____]{0}
+
+
+
 
 Problem 9:
       ## Counting the number of fish in a lake.
