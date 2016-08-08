@@ -83,19 +83,18 @@ def cluster(Week, problem_id):
                     ans = p['ans_tree'][1]
                 else:
                     ans = p['ans_tree'][0][1]
-                if att * ans < 0:
+                convert_fail = False
+                try:
+                    float(att)
+                except OverflowError:
+                    print "Can't convert to float"
+                    convert_fail = True
+                if not convert_fail and att * ans < 0:
                     problem_clusters[part]['Wrong_Sign'] += [(p['answer'], p['attempt'])]
                     continue
-                else:
-                    convert_fail = False
-                    try:
-                        float(att)
-                    except OverflowError:
-                        print "Can't convert to float"
-                        convert_fail = True
-                    if not convert_fail and float(ans).is_integer() and not float(att).is_integer():
-                        problem_clusters[part]['Fraction'] += [(p['answer'], p['attempt'])]
-                        continue
+                elif not convert_fail and float(ans).is_integer() and not float(att).is_integer():
+                    problem_clusters[part]['Fraction'] += [(p['answer'], p['attempt'])]
+                    continue
             final_pairs = cluster_functions.find_matches(p)
             if len(final_pairs)>0:
                 sorted_final = sorted(final_pairs,key=lambda x: x[0])
