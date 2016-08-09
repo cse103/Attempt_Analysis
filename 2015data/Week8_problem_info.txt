@@ -44,7 +44,55 @@ Assigned problem file name:
 
 
 Problem 1
-(Can't find the problem just yet)
+    $N=random(3,10,1);
+    $T=random(1,$N-1,1);
+    $F=$N-$T;
+
+    [``\newcommand{\E}{\mathbb{E}}``]
+    [``\newcommand{\R}{\mathbb{R}}``]
+    [``\newcommand{\bP}{\mathbb{P}}``]
+    [``\newcommand{\var}{\mbox{var}}``]
+    [``\newcommand{\pr}{\mbox{Pr}}``]
+    [``\def\X{{\cal X}}``]
+    [``\def\cost{{\mbox{cost}}}``]
+    [``\def\U{{\cal U}}``]
+    [``\renewcommand{\log}{\mbox{log}_2}``]
+
+    #### Order Of Evaluation ####
+
+    Suppose C1,C2 are boolean variables and that A equal to their conjunction:
+
+    A= C1 and C2
+
+    Our goal is to evaluate A by checking the smallest number of C's.
+
+    Because this is a conjunction, it is enough to find one variable that is false to make A false. Therefor a good technique is to check the two variables one after the other and stop early if the variable is false.
+
+    However, we don't know what the values of the C's are until we check them. This is a situation in which randomization can help.
+
+    We will contrast two methods:
+    * **Deterministic Method:** Check C1, if True, check C2
+    * **Randomized Method:** Chose C1 or C2 at random, by flipping a fair coin. If the chosen variable is True, check the other.
+
+    Lets compare how many checks need to be done in difference situations:
+
+    * **C1=False, C2=False **
+        - The Deterministic method will require [_____]{1} checks.
+        - The expected number of checks of the randomized method is [_____]{1}
+    * **C1=True, C2=True**
+        - The Deterministic method will require [_____]{2} checks.
+        - The expected number of checks of the randomized method is [_____]{2}
+    * **C1=True, C2=False **
+        - The Deterministic method will require [_____]{2} checks.
+        - The expected number of checks of the randomized method is [_____]{1.5}
+    * **C1=False, C2=True **
+        - The Deterministic method will require [_____]{1} checks.
+        - The expected number of checks of the randomized method is [_____]{1.5}
+
+    If we are interested in the worst case (the worst performance over the 4 choices above) we find that
+        - The Deterministic method will require [_____]{2} checks in the worst case
+        - The expected number of checks of the randomized method in the worst case is [_____]{1.5}
+
 
 
 Problem 2

@@ -69,11 +69,55 @@ Assigned problem file name:
 +--------+------------+-----------------------------------------------+
 
 Problem 1
+    $A = random(1000,2000,1000);
+    $B = random(600,900,100);
+    $AB = random(100,300,100);
+    $n = random(80,100,10);
+    $m = random(700,1000,100);
 
+    ## Min-Hash ##
+
+    You can find the relevant material for this problem in section 11.6 of the lecture notes on Nota-Bene (http://nb.mit.edu)
+
+    Suppose that the sets [`A,B,C,\ldots`] are subsets of the domain [`U=\{1,\ldots,n\}`] with [`n=[$n]`] and suppose that we have a family of hash functions [`h_1,h_2`], which map from [`U`] to the a much larger set [`\{1,\ldots,m\}`] with [`m=[$m]`].
+
+    a) Fix some integers [`i,j`] such that [`1 \leq i \leq j \leq n`]. What is the
+    probability that [`h_1(i)=h_1(j)`]? [_______________]{Compute("$n/$m")}
+
+    b) Now suppose that [`m`] is much larger than [`n`], so that [`n/m`] is a
+    negligibly small number. Recall that given a hash function [`h`] the Min-Hash of a set [`S`] is defined to be [`\min_{s \in S} h(s)`]. Suppose that we have two sets: [`A=\{1,2,3\}`] and [`B=\{3,0\}`]. What is the probability (over the random choice of the hash function) that
+    [`MinHash(A)=MinHash(B)`]?    [________]{Compute("1./4")}
+
+    Suppose the sets [`A,B`] are two subsets of the set [`S=\{1,2,\ldots,10000\}`]. Suppose  [`|A|=[$A]`], [`|B|=[$B]`], [`|A\cap B|=[$AB]`] are the sizes of [`A`], [`B`] and
+    their intersections respectively. What is the probability that
+    [`MinHash(A)=MinHash(B)`]?
+    [________________________]{Compute("$AB/($A+$B-$AB)")}
+
+    The ratio [`\frac{|A\cap B|}{|A\cup B|}`] is called the Jaccard similarity of
+    [`A`] and [`B`].
 
 
 Problem 2
+    $k=random(3,5,1);
 
+    ## Shingles ##
+
+    Consider the sentence "there are no people like show people". If we
+    consider the sentence as a set of words then it is a set of size
+    [_________]{6} (Note that the word "people" appears twice).
+
+    Note that representing a document as a set of words means that we are
+    ignoring the meaning of the sentence. Clearly, the order of words in a
+    sentence contain its meaning
+
+    To capture some of the order information we can use
+    "shingles". Shingles of length two are consecutive pairs of words. For
+    the sentence above we get the 2-shingles: "there are", "are no", "no
+    people", "people like", "like show", "show people".
+
+    Suppose a document contains 1000 words, what is the maximal size of
+    the set of [$k]-shingles that it defines?
+    [__________]{"1000-($k-1)"}
 
 
 
