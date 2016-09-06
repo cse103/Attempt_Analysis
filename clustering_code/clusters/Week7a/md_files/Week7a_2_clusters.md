@@ -1,3 +1,28 @@
+#Problem 2:
+
+      $a = Compute("0.05/sqrt(0.16/200)");
+      $q = Compute("Q($a)");
+
+      A noted psychic was tested for extrasensory perception. The psychic was presented
+      with 200 cards face down and asked to determine if the card were one of five symbols.
+      The psychic was correct in 50 cases. Let p represent the probability that the psychic
+      correctly identifies the symbol on the card in a random trial. Assume the 200 trials
+      can be treated as a simple random sample.
+
+      Suppose you wished to see if there were evidence that the psychic is
+      doing better than just guessing. To do this, you test the hypotheses [`H_0 : p = .20`]
+      versus [`H_{alternative} : p > .20`].
+
+      What is the z-score? [__________________________________________]{$a}
+
+      What is the p-value for the test statistic? (You can use Q function in the answer) [_________]{$q}
+
+      Can you reject at the .05 significance level? (answer "yes" or "no") [_______]{"yes"}
+
+      Can you reject at the .01 significance level? (answer "yes" or "no") [_______]{"no"}
+
+
+
 ## Part 1
 
 ### (64) Mistake Group Wrong_Sign of size 64

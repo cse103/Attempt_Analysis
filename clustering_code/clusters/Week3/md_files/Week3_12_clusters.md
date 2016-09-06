@@ -1,3 +1,17 @@
+#Problem 12
+
+    $ns = random(4,6,1);
+    $nr = random(10,16,1);
+    $n = $ns*$nr;
+
+    ## Probability of Poker Hands ##
+    You are given a deck of cards with *[$ns] suites* and *[$nr] ranks*. A hand consists of 5 cards from this deck, and may fall into one of the categories. We are going to compute the probability of each category.
+
+    First, the number of all possible hands is [_____]{Compute("C($n,5)")}.
+
+
+
+
 ## Part 1
 
 ### (32) Mistake Group ['R.1'] of size 32

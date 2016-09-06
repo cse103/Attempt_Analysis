@@ -1,3 +1,25 @@
+#Problem 4
+
+    $ans1 = 0;
+    while ($ans1 < 0.002) {
+    $mu = random(5,7,.5);
+    $lambda = 1/$mu;
+    $a = random(9,12,1);
+    $x = $lambda*$a;
+    $ans1 = Compute("e^(-$x)");
+    }
+
+    The manager of a supermarket tracked the amount of time needed
+    for customers to be served by the cashier.  After checking with
+    his statistics professor, he concluded that the checkout times
+    are exponentially distributed with a mean of [$mu] minutes.  What
+    propotion of customers require more than [$a] minutes to check out?
+
+    Proportion = [____________]{$ans1}
+
+
+
+
 ## Part 1
 
 ### (181) Mistake Group ['R.0'] of size 181

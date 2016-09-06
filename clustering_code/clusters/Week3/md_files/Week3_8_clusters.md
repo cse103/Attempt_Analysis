@@ -1,3 +1,15 @@
+#Problem 8
+
+	(part 1,2,3 are multiple choice questions, below is part 4)
+	
+    $R1=random(5,20,1);  # Number of balls (both white and black)
+    $R2=random(2,$R1-1,1);  # Number of white balls
+
+    *PROBLEM:*
+    Suppose we have [$R1] bins, numbered 1,...,[$R1] and that we have [$R1] balls,
+    [$R2] of them white and [$R1-$R2] of them black.
+
+    o How many white/black patterns can one make by placing the balls in the bins? [________]{"$R1!/($R2!*($R1-$R2)!)"}
 ## Part 4
 
 ### (43) Mistake Group Digits of size 43

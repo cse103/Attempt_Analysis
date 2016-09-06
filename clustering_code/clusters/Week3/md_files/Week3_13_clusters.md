@@ -1,3 +1,29 @@
+#Problem 13
+
+    $ns = random(4,6,1);
+    $nr = random(10,16,1);
+    $n = $ns*$nr;
+
+    ### Two Pairs ###
+
+    *Remember, the deck you are using has [$ns] suits and [$nr] ranks.*
+
+    1. The number of possibilities for the ranks of the two pairs is [______]{Compute("C($nr,2)")}.
+
+    2. The number of possibilities for the rank of the single is [______]{$nr-2}.
+
+    2. The number of possibilities for the suits of the two pairs is [_____]{Compute("C($ns,2)**2")}.
+
+    3. The number of possibilities for the suit of the single is [______]{$ns}.
+
+    4. Thus the number of hands with exactly two pairs is [______]{Compute("C($nr,2)*($nr-2)*C($ns,2)**2*$ns")}.
+
+    5. The ratio of this number to the number of all hands [______]{Compute("C($nr,2)*($nr-2)*C($ns,2)**2*$ns/C($n,5)")}.
+
+
+
+
+
 ## Part 1
 
 ### (330) Mistake Group Digits of size 330

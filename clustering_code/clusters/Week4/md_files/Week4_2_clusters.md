@@ -1,3 +1,24 @@
+#Problem 2
+
+    Given the following cumulative distribution:
+    END_PGML
+    BEGIN_TEXT
+    $BR
+    \{ image("cumulative_uniform_masses_5.png", width=>650, height=>500) \}
+    END_TEXT
+    BEGIN_PGML
+    What are the uniform densities and mass distributions that could have been summed to produce this CDF?
+    Uniform distributions:
+    - Uniform on (0.00,[_____]{2.00}) of probability density [_____]{0.05}
+    - Uniform on (1.00,[_____]{10.00}) of probability density [_____]{0.01}
+
+    Point masses (ordered by the location):
+    - Point mass at [_____]{1.00} with probability [______]{0.40}
+    - Point mass at [_____]{7.00} with probability [______]{0.30}
+    - Point mass at [_____]{12.00} with probability [______]{0.11}
+
+
+
 ## Part 1
 
 ### (318) Mistake Group Digits of size 318

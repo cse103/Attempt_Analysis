@@ -1,3 +1,24 @@
+#Problem 1
+
+    $x = random(8,10,1);
+    $X = $x*$x;
+    $y = random(0,5,1);
+    $lambda = 400/($X);
+
+    You will be using Poisson Distribution in this problem. Review: a discrete random variable [`X`] is said to have a Poisson distribution with parameter [`\lambda > 0`], if for k = 0, 1, 2, ... the probability mass function of [`X`]  is given by:
+
+    [`\Pr(X=k) = e^{-\lambda} \frac{\lambda^k}{k!}`]
+
+    Assume that you live in a district of size [`[$x]`] blocks by [`[$x]`] blocks so that the total district is divided into [`[$X]`] small squares. How likely is it that the square in which you live will receive [`[$y]`] hits if the total area is hit by [`400`] bombs. Assume the probability that a particular bomb will hit your square with probability [`1/[$X]`].
+
+    o What is [`\lambda`] in the Poisson Distribution? [__________]{Compute("400/$X")}
+
+    o Using Poisson Distribution, what is the approximate probability that your square will receive [`[$y]`] hits? [________________]{Compute("e^(-$lambda)*$lambda^$y/($y!)")}
+
+    o What is the expected number of squares that will receive exactly [`[$y]`] hits using the approximate probability from above? [________________]{Compute("($x*$x)*(e^(-$lambda)*$lambda^$y/($y!))")}
+
+
+
 ## Part 1
 
 ### (338) Mistake Group Digits of size 338

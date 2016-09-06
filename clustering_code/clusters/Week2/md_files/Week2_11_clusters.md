@@ -1,3 +1,16 @@
+#Problem 11
+
+    $R1=random(10,20,1); # size of instance space
+    $R2=random(5,$R1,1); # size of event set.
+
+    Suppose we have [$R1] cards, numbered 1,...,[$R1]. Suppose that when we pick a card at random the distribution of the card number is uniform. Let [`A`] be the event that number of the card that we picked is smaller or equal to [$R2]. What is the probability of the event [`A`]?
+
+    o *Copy* the number of cards here: [_________]{$R1}
+    o *Copy* the maximal card value in [`A`] here: [________]{$R2}
+    o The probability of the event is equal to [__________________________]{Compute("$R2/$R1")}
+
+
+
 ## Part 1
 
 ### (96) Mistake Group Digits of size 96

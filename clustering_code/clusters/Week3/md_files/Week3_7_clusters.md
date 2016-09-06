@@ -1,3 +1,24 @@
+#Problem 7
+
+    $a=random(2,3,1);
+    $n=Compute("P(26,$a)");
+    $b=random(3,6,1);
+    $b2=Compute("$b+2");
+    $c=Compute("($b+1)*P(26,$a)+1");
+    $cr=$c->eval();
+    $d=Compute("($b-1)*P(26,$a)+1");
+    $showHint = 3;
+
+    Consider a list of randomly generated [$a]-letter "words" printed on a paper. The letters cannot be repeated.
+    (a) What is the size of the set of allowed words?
+    Answer = [__________]{Compute("P(26,$a)")}
+    (b) At least how many of these "words" should be printed to be sure of having at least [$b] identical "words" on the list?
+    Answer = [_______________]{Compute("($b-1)*P(26,$a)+1")}
+    (c) At least how many identical "words" are printed if there are [`[$c]`] "words" on the list?
+    Answer = [_______________]{Compute("$b+2")}
+
+
+
 ## Part 1
 
 ### (25) Mistake Group ['R.0', 'R.1'] of size 25

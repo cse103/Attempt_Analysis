@@ -1,3 +1,18 @@
+# Problem 5
+
+    $a = random(10,14,1);
+    $n = random(2,5,1);
+    $b = $a * 2 * $n;
+
+    1. For lunch, I can eat one sandwich and a piece of fruit. I can choose between veggie, chicken, and beef sandwiches; and between an orange and an apple. How many different lunch combinations can I have?
+    Your answer is: [______]{Compute("3*2")}
+
+    2. A particular brand of shirt comes in [$a] colors, has a male
+    version and a female version, and comes in [$n] sizes for each sex.
+    How many different types of this shirt are made?
+    Your answer is: [______]{Compute("$a * 2 * $n")}
+
+
 ## Part 1
 
 ### (24) Mistake Group Digits of size 24

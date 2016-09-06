@@ -1,3 +1,13 @@
+#Problem 14
+
+    $n2 = random(3,6,1);
+
+    Lower case English letters are from "a-z". The order matters here. For example, "ab" is a different string from "ba". Repetition is allowed, i.e. the same letter can occur multiple times in a string.
+    1. How many strings of length [$n2] consisting of lower case English letters are there?  [__________]{Compute("26**$n2")}
+    2. How many strings of length [$n2] consisting of lower case English letters, **excluding the letter "x"**, are there? [__________]{Compute("25**$n2")}
+    3. How many strings of length [$n2] consisting of lower case English letters, **and including at least one "x"**, are there? [__________]{Compute("26**$n2-25**$n2")}
+
+
 ## Part 1
 
 ### (40) Mistake Group Digits of size 40

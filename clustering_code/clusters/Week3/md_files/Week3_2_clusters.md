@@ -1,3 +1,26 @@
+#Problem 2
+
+    $a = random(300,400,1);
+    $b = random(15, 25, 1);
+
+    There is a class of [$a] students taking a T/F quiz of 10 questions. We would normally think it unlikely that a student would get more than 2 questions right out of 10 by flipping a coin, but with a class this large, it might be possible. Here we'll calculate the probability of at least one student in the class of size [$a] getting more than 2 questions right.
+
+    What is the probability of a particular student getting exactly 2 questions right? [______]{Compute("10!/(2!8!) * 0.5^10")}
+
+    What is the probability of a particular student getting exactly 1 question right? [______]{Compute("10!/(1!9!) * 0.5^10")}
+
+    What is the probability of a particular student getting no questions right? [______]{Compute("1 * 0.5^10")}
+
+    What is the probability of a particular student getting at most 2 questions right?[_____]{Compute("10!/(2!8!) * 0.5^10+ 10!/(1!9!) * 0.5^10 + 1 * 0.5^10")}
+
+    What is the probability of a particular student getting 3 or more questions right?[_____]{Compute("1- ( 10!/(2!8!) * 0.5^10+ 10!/(1!9!) * 0.5^10 + 1 * 0.5^10)")}
+
+    What is the probability of every student in the class getting 3 or more questions right?[____]{Compute(" (1- ( 10!/(2!8!) * 0.5^10+ 10!/(1!9!) * 0.5^10 + 1 * 0.5^10) ) ^ $a ")}
+
+    What is the probability of some student in the class getting at most 2 questions right?[_____]{Compute( " 1 -  ((1- ( 10!/(2!8!) * 0.5^10+ 10!/(1!9!) * 0.5^10 + 1 * 0.5^10) ) ^ $a ) " )}
+
+
+
 ## Part 1
 
 ### (56) Mistake Group ['R.1.1'] of size 56

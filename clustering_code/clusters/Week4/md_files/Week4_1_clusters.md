@@ -1,3 +1,20 @@
+#Problem 1
+
+    $n = random(20, 25, 1);
+    $a1 = Compute("C($k+3,3)");
+    $a2 = Compute("C($k+2,2)");
+    $a3 = Compute("C($k-1+2,2)");
+    $a4 = Compute("C($k-2+2,2)");
+
+    ### Computing CDF
+    Let [`X`] be a discrete random variable with the density function [`P(X=x) = x/z`], that is defined when [`x \in \{1, 2, ... , [$n]\}`], and [`z`] is a normalization constant. Let [`F`][`(X)`] be the CDF of [`X`].  What are the values of the following expressions?
+
+    o [`F(5) = \frac{1}{z} (`][___________]{1+2+3+4+5}[`)`]
+
+    o [`F([$n]) =  \frac{1}{z} (`][_______]{$n*($n+1)/2}[`)`]
+
+
+
 ## Part 1
 
 ### (337) Mistake Group Digits of size 337

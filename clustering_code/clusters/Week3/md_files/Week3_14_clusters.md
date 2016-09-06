@@ -1,3 +1,21 @@
+#Problem 14
+
+    $ns = random(4,6,1);
+    $nr = random(10,16,1);
+    $n = $ns*$nr;
+
+    ### Straight : Five cards in sequence, but not all from the same suit ###
+    *Remember, the deck you are using has [$ns] suits and [$nr] ranks.*
+
+    1. In the case of a standard deck, the ranks of a straight is one of (Ace,2,3,4,5) ... (10,J,Q,K,Ace). Similarly, in your deck, the number of possibilities for the ranks of a straight is [______]{Compute("$nr-3")}.
+
+    2. The suits can be anything other than all equal, so the number of possibilities for the suits of a straight is [______]{Compute("$ns**5 - $ns")}.
+
+    4. Thus the number of hands that is a straight is [______]{Compute("($nr-3)*($ns**5-$ns)")}.
+
+    5. The ratio of this number to the number of all hands [______]{Compute("($nr-3)*($ns**5-$ns)/C($n,5)")}.
+
+
 ## Part 1
 
 ### (419) Mistake Group Digits of size 419

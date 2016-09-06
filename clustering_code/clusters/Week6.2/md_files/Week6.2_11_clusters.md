@@ -1,3 +1,36 @@
+#Problem 11
+
+    $a = random(-3,-1,1);
+    $b = $a + random(2,6,1);
+    $lambda = random(0.1, 0.9, 0.1);
+
+    $n1 = random(100,500,10);
+    $n2 = random(100,500,10);
+
+    ### CLT simulation
+
+    In this problem, you may use the CLT simulation
+    (http://webwork.cse.ucsd.edu/misc/clt.html) to help you find the
+    answers.
+
+    ---
+
+    Suppose a sample average is denoted by [`S_n = (\sum_{i=1}^n X_i) /
+    n`] and we define [`T_n = (S_n - A) / B`].
+
+    Find the values of [`A`]
+    and [`B`] under the following conditions so that [`T_n`] is
+    distributed normally with [`\mu = 0`] and [`\sigma = 1`]. Your answers should be correct up to 2 decimal points.
+
+    o  [`X_i \sim \mbox{Uniform}([$a],[$b])`] and [`n = [$n1]`]
+        -  A = [________]{Compute("($a+$b)/2")->with(tolType=>'absolute', tolerance=>'0.01')}
+        -  B = [________]{Compute("sqrt((($b-$a)**2/12) / $n1)")->with(tolType=>'absolute', tolerance=>'0.01')}
+
+    o  [`X_i \sim \mbox{Exponential}([$lambda])`] and [`n = [$n2]`]
+        -  A = [________]{Compute("1/$lambda")->with(tolType=>'absolute', tolerance=>'0.01')}
+        -  B = [________]{Compute("sqrt((1/$lambda**2) / $n2)")->with(tolType=>'absolute', tolerance=>'0.01')}
+
+
 ## Part 1
 
 ### (109) Mistake Group Wrong_Sign of size 109

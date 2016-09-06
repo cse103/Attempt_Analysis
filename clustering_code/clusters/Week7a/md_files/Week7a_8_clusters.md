@@ -1,3 +1,19 @@
+#Problem 8:
+
+      Using the data given in the problem regarding the source of a batch of fish we get the following:
+      * The p-value associated with rejecting the HA hypothesis is 0.5616
+      * The p value associated with rejecting the HP hypothesis is  0.0677
+
+      Which hypothesis can we reject if we set our confidence level to be [`\alpha=10%`] ?
+      (use 1 for reject, 0 for not reject)
+
+      * We can reject the hypothesis that the batch is from the pacific ocean [____]{1}
+      * We can reject the hypothesis that the batch is from the atlantic ocean [_____]{0}
+
+
+
+
+
 ## Part 1
 
 ### (77) Mistake Group Digits of size 77

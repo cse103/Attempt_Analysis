@@ -1,3 +1,21 @@
+#Problem 3
+
+    $a = random(1,5,0.1);
+    $b = random(1,5,0.1);
+    while ( abs($a - $b) < 0.5 ) { $b = random(1,5,0.1); }
+
+    $ans = Compute("(e^(-$a) + e^(-$b))/2");
+
+    BEGIN_PGML
+
+    A certain typing agency employs two typists. The average number of errors per article is
+    [$a] when typed by the first typist and [$b] when typed by the second.
+    If your article is equally likely to be typed by either typist, find the probability
+    that it will have no errors. [___________________]{$ans->with(tolType=>'absolute', tolerance=>'0.01')}
+
+
+
+
 ## Part 1
 
 ### (33) Mistake Group ['R.1'] of size 33

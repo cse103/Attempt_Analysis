@@ -1,3 +1,29 @@
+#Problem 10
+
+    $b = random(150,400,1);
+    $p = random(0.8,0.9,0.01);
+    $mean =$b*$p;
+    $dev = sqrt ($b * $p * (1 - $p));
+
+    $z = random(1.7, 3.1, 0.01);
+    $s = 10*int(($z * $dev + $mean)/10+1);
+
+    $ans = Compute("Q(($s-$mean)/$dev)");
+
+    An airline company is considering a new policy of booking as many as [$b] persons on an
+    airplane that can seat only [$s].
+    (Past studies have revealed that only [$p*100]% of the booked passengers actually arrive for the flight.)
+
+    What is the mean of the number of passengers that arrive for the flight ? [________]{$mean}
+
+    What is the standard deviation ? [________]{$dev}
+
+    Estimate the probability that if the company books [$b] persons, not enough seats will be
+    available. [__________]{$ans}
+
+
+
+
 ## Part 1
 
 ### (25) Mistake Group ['R.1'] of size 25

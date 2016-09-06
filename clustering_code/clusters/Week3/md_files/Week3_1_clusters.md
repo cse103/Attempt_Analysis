@@ -1,3 +1,27 @@
+#Problem 1
+
+    $a=random(4,6,1);
+
+    if ($a == 4){
+       $lts = AABBCC;
+       $ans = 6*5*4*3*2/(2*2*2);
+       };
+    if ($a == 5){
+       $lts = AAABBC;
+       $ans = 6*5*4*3*2/(3*2*2);
+       };
+    if ($a == 6){
+       $lts = AABCD;
+       $ans = 5*4*3*2/2;
+       };
+
+    1. Find the number of distinguishable ways of arranging the letters "MAMA".
+    Your answer is : [_________________________]{Compute("(4*3*2)/(2*2)")}
+
+    2. Find the number of distinguishable permutations formed by using each of the letters [$lts] once and only once.
+    Your answer is : [_________________________]{$ans}
+
+
 ## Part 1
 
 ### (145) Mistake Group Digits of size 145

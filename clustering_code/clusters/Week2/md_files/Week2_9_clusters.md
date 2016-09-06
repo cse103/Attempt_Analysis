@@ -1,3 +1,19 @@
+#Problem 9
+
+    $a=random(2,2,1);
+    $b=random(2,3,1);
+    $c = 7-$a-$b;
+
+    1. How many ways are there of picking one digit (from 0-9), then one letter (A-Z)?
+    Your answer is: [____________________]{Compute("10*26")}.
+
+    2. Standard automobile license plates in a country display [$a] numbers,
+    followed by [$b] letters, followed by [$c] numbers.
+    How many different standard plates are possible in this system?
+    (Assume repetition of letters and numbers is allowed.)
+    Your answer is: [____________________]{Compute("10**$a*26**$b*10**$c")}.
+
+
 ## Part 1
 
 ### (36) Mistake Group Digits of size 36

@@ -1,3 +1,25 @@
+#Problem 15
+
+    $ns = random(4,6,1);
+    $nr = random(10,16,1);
+    $n = $ns*$nr;
+
+    ### Full House: 2 of one rank and 3 of another rank ###
+    *Remember, the deck you are using has [$ns] suits and [$nr] ranks.*
+
+    1. The number of possibilities for the rank of the triple is [______]{$nr}.
+
+    2. Given the rank of the triple, the number of possibilities for the rank of the pair is [______]{$nr-1}.
+
+    2. The number of possibilities for the suit of the triple is [_____]{Compute("C($ns,3)")}.
+
+    3. The number of possibilities for the suit of the pair is [_____]{Compute("C($ns,2)")}.
+
+    4. Thus the number of hands that is a full house is [______]{Compute("$nr*($nr-1)*C($ns,3)*C($ns,2)")}.
+
+    5. The ratio of this number to the number of all hands [______]{Compute("$nr*($nr-1)*C($ns,3)*C($ns,2)/C($n,5)")}.
+
+
 ## Part 1
 
 ### (45) Mistake Group Digits of size 45

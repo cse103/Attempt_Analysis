@@ -1,3 +1,16 @@
+#Problem 10
+
+    $a=random(48,55,1);
+
+    1. Suppose we choose two *different* numbers, each from 1 to 5. If the order of the numbers is *not* important, how many different choices can we pick?
+    [_______]{Compute("(5*4)/2")}
+
+    2. In the "6/[$a]" lottery game, a player picks six numbers from 1 to [$a].
+    How many different choices does the player have if repetition is not allowed?
+    Note again that the order of the numbers is not important.
+    Your answer is : [_______]{Compute("$a*($a-1)*($a-2)*($a-3)*($a-4)*($a-5)/(6*5*4*3*2)")}
+
+
 ## Part 1
 
 ### (285) Mistake Group Digits of size 285

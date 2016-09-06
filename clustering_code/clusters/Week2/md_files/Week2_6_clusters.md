@@ -1,3 +1,15 @@
+#Problem 6
+
+    $a=random(4,9,1);
+
+    1. How many strings of letters can be formed by rearranging the letters "CAB"? (Order matters.)
+    Your answer is : [________________]{fact(3)}
+
+    2. A pianist plans to play [$a] different pieces at a recital. In how many ways can she
+    arrange these pieces in the program?
+    Your answer is : [________________]{fact($a)}
+
+
 ## Part 1
 
 ### (34) Mistake Group Digits of size 34

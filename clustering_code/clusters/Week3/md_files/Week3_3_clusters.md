@@ -1,3 +1,15 @@
+#Problem 3
+
+    $p = random(6,8,1);
+    if ($p == 6) {$a =Compute("(C(10,$p)+C(10,$p+1)+C(10,$p+2)+C(10,$p+3)+1)/(2^10)");}
+    if ($p == 7) {$a = Compute("(C(10,$p)+C(10,$p+1)+C(10,$p+2)+1)/(2^10)");}
+    if ($p == 8) {$a = Compute("(C(10,$p)+C(10,$p+1)+1)/(2^10)");}
+
+    Here we will calculate the probability of a student getting at least [$p*10] percent on a true/false exam with 10 questions.
+
+    The probability that a student gets a grade of [$p*10] percent or better by guessing is [__________________________________________________________________]{$a}
+
+
 ## Part 1
 
 ### (90) Mistake Group ['R.1'] of size 90

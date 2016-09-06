@@ -1,3 +1,62 @@
+#Problem 8
+
+    $C11 = "1/16";
+    $C12 = "2/16";
+    $C13 = "1/16";
+    $C21 = "2/16";
+    $C22 = "4/16";
+    $C23 = "2/16";
+    $C31 = "1/16";
+    $C32 = "2/16";
+    $C33 = "1/16";
+
+    $X1 = "($C11 + $C21 + $C31)";
+    $X2 = "($C12 + $C22 + $C32)";
+    $X3 = "($C13 + $C23 + $C33)";
+
+    $Y1 = "($C11 + $C12 + $C13)";
+    $Y2 = "($C21 + $C22 + $C23)";
+    $Y3 = "($C31 + $C32 + $C33)";
+
+    $E_X = "1*$X1 + 2*$X2 + 3*$X3";
+    $E_Y = "1*$Y1 + 2*$Y2 + 3*$Y3";
+    $E_XY = "1*$C11 + 2*$C12 + 3*$C13 + 2*$C21 + 4*$C22 + 6*$C23 + 3*$C31 + 6*$C32 + 9*$C33";
+    $COV_XY  = "$E_XY - ( ($E_X) * ($E_Y) )";
+    $E_X2 = "1*$X1 + 4*$X2 + 9*$X3";
+    $E_Y2 = "1*$X1 + 4*$X2 + 9*$X3";
+    $STD_X = "sqrt($E_X2 - ($E_X)**2)";
+    $STD_Y = "sqrt($E_Y2 - ($E_Y)**2)";
+
+    The following formula are useful for this assignment:
+    - Covariance [`COV(X,Y) = E[XY]-E[X]E[Y]`]
+    - Correlation coefficient [`r(X,Y) = \frac{COV(X,Y)}{\sqrt{VAR[X]}\sqrt{VAR[Y]}}`]
+
+    TEXT(
+    BeginTable(),
+    $PAR,
+    Row([" ", "X=1","X=2","X=3"],separation=>10),
+    Row(["Y=1 ",$C11,$C12,$C13],separation=>10),
+    Row(["Y=2 ",$C21,$C22,$C23],separation=>10),
+    Row(["Y=3 ",$C31,$C32,$C33],separation=>10),
+    EndTable()
+    );
+
+    BEGIN_PGML
+    - The marginal distribution of [`X`] is [`P(X=1)=`][____]{"$X1"}, [`P(X=2)=`][____]{"$X2"}, [`P(X=3)=`][____]{"$X3"}
+    - The marginal distribution of [`Y`] is [`P(Y=1)=`][____]{"$Y1"}, [`P(Y=2)=`][____]{"$Y2"}, [`P(Y=3)=`][____]{"$Y3"}
+    - Are [`X`] and [`Y`] independent? [____]{"1"} (1=independent, 0=dependent)
+    - Are [`X`] and [`Y`] identically distributed? [____]{"1"} (0=no, 1=yes)
+    - [`E(X) =`][____]{"$E_X"}
+    - [`E(Y) =`][____]{"$E_Y"}
+    - [`E(X+Y) =`][____]{"$E_X + $E_Y"}
+    - [`E(XY) = `][____]{"$E_XY"}
+    - [`Cov(X,Y) =`][____]{"$COV_XY"}
+    - The correlation coefficient between [`X`] and [`Y`] is [____]{"($COV_XY)/(($STD_X)*($STD_Y))"}.
+    - Are [`X`] and [`Y`] correlated [____]{"0"} (1=Correlated, 0=uncorrelated, -1=anticorrelated)
+
+
+
+
 ## Part 1
 
 ### (36) Mistake Group Digits of size 36

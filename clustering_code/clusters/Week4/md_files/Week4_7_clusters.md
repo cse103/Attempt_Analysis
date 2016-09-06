@@ -1,3 +1,21 @@
+#Problem 7
+
+    *Find the probability that a poker hand of 5 cards from a standard deck will contain no card smaller than 7 (i.e. 2,3...6) (call this event [`A`]), given that it contains at least one face card (i.e. J, Q, K) (call this event [`B`])"?*
+
+    We define two events:
+    * Event [`A`]: The hand contains no card smaller than 7.
+    * Event [`B`]: The hand contains at least one face card.
+
+    We first compute the size of the relevant events
+    - [`|A \cap B| = `] [____________]{Compute("C(32,5)-C(20,5)")}
+    - [`|B| = `] [____________]{Compute("C(52,5)-C(40,5)")}
+
+    We then use the ratio between the sizes of the events to find the conditional probability:
+    - The conditional probability [`P(A|B) = `] [____________]{Compute("(C(32,5)-C(20,5))/(C(52,5)-C(40,5))")}
+
+
+
+
 ## Part 1
 
 ### (232) Mistake Group Digits of size 232

@@ -1,3 +1,32 @@
+#Problem 7
+
+    $a = random(1,5);
+    $b = random(6,10);
+
+    ## The mean, or expected value  ##
+
+    ---
+    Let [`X_1, X_2, \cdots X_{5}`]  be independent random variables with:
+    [$BCENTER]*
+    [``\mathbb{E}(X_i) = \frac{[$a]}{i} \hspace{10pt} \mbox{VAR}(X_i) = \frac{[$b]}{i^2}``]
+    [$ECENTER]*
+    ---
+    Compute:
+
+    * the mean of [`X_1 + X_2 + X_3 + X_4 + X_5`] [_____________________________]{Compute("$a*(1+1/2+1/3+1/4+1/5)")}
+    * ...and the variance [______________________________]{Compute("$b*(1+1/4+1/9+1/16+1/25)")}
+
+    * the mean of [`X_1 - X_2 + X_3 - X_4 + X_5`] [_______________________________]{Compute("$a*(1-1/2+1/3-1/4+1/5)")}
+    * ...and the variance  [________________________________]{Compute("$b*(1+1/4+1/9+1/16+1/25)")}
+
+
+    * the mean of [`X_1 - 2X_2 + X_3 - 2X_4 + X_5`] [_______________________________]{Compute("$a*(1-2/2+1/3-2/4+1/5)")}
+    * ...and the variance [________________________________]{Compute("$b*(1+1/9+1/25) +$b*4*(1/4+1/16)")}
+
+
+
+
+
 ## Part 1
 
 ### (43) Mistake Group Digits of size 43

@@ -1,3 +1,34 @@
+#Problem 5
+
+    $p_men = random(6,8,1);
+    $p_women = random(3,5,1);
+    $p_male_given_colorblind = $p_men/($p_men+$p_women);
+
+
+    Suppose that there are equal numbers of men and women in the world, and that [$p_men]\% of men
+    are colorblind whereas only [$p_women]\% of women are colorblind. A person is chosen at random and found
+    to be colorblind. What is the probability that the person is male? [_______________]{$p_men/($p_men+$p_women)}
+
+    Reverse the condition:
+
+    [``
+    \begin{align*}
+    \textbf{Pr}(\text{male} \ | \ \text{colorblind}) & = \frac{\textbf{Pr}(\text{male},\text{colorblind})}{\textbf{Pr}(\text{colorblind})} \\
+    & = \frac{\textbf{Pr}(\text{colorblind} \ | \ \text{male}) \textbf{Pr}(\text{male})}{\textbf{Pr}(\text{colorblind})} \\
+    \end{align*}
+    ``]
+
+    Law of total probability + Bayes rule:
+
+    [``
+    \begin{align*}
+    \textbf{Pr}(\text{colorblind}) & = \textbf{Pr}(\text{male},\text{colorblind}) +  \textbf{Pr}(\text{female},\text{colorblind}) \\
+    & = \textbf{Pr}(\text{colorblind} \ | \ \text{male}) \textbf{Pr}(\text{male}) + \textbf{Pr}(\text{colorblind} \ | \ \text{female}) \textbf{Pr}(\text{female})
+    \end{align*}
+    ``]
+
+
+
 ## Part 1
 
 ### (5) Mistake Group Digits of size 5

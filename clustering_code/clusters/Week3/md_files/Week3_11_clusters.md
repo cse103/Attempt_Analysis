@@ -1,3 +1,35 @@
+#Problem 11
+
+    $nCards=random(4,7,1);
+    $b=random(2,$nCards-1,1);
+    $nSame = Compute("C(13,$b)");
+    $nTotal = Compute("C(52,$nCards)");
+    $nOther = Compute("C(39,$nCards-$b)");
+    $nEvent = Compute("$nSame * $nOther");
+    $ans = Compute("4*C(13,$b)*C(39,$nCards-$b)/C(52,$nCards)");
+
+    ## Probability of cards of the same suite ##
+    A poker hand consisting of [$nCards] cards is dealt from a standard deck of 52 cards.
+    Find the probability that the hand contains exactly [$b] cards of the same suite. It is allowed to have any number of cards in other suites.
+
+    First, we know the number of all possible hands of [$nCards] cards is [______]{$nTotal}.
+
+    Then, we calculate the number of hands that contain exactly [$b] cards of the same suite.
+
+    	We first choose which suite the [$b] cards is. Obviously, there are [______]{4} possibilities.
+
+    	The number of possibilities for the ranks of these cards is [_______]{$nSame}.
+
+    	The other [$nCards-$b] cards in the hand can be any cards that has a different suite than the [$b] cards. There are a total of [______]{52-13} such cards. To choose [$nCards-$b] from them, there are [________]{$nOther} possibilities.
+
+    	Thus we can compute the number of hands that have exactly [$b] cards of the same suite, which is [______]{Compute("4*C(13,$b)*C(39,$nCards-$b)")}.
+
+    Finally we can calculate the probability of such hands, by calculating th ratio of the number of such hands to the number of all hands. This is [_______]{$ans}
+
+
+
+
+
 ## Part 1
 
 ### (46) Mistake Group Digits of size 46

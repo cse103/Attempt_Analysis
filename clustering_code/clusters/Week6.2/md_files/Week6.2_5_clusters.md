@@ -1,3 +1,33 @@
+#Problem 5
+
+    $k = random(1,2,1);
+    $r = random(1,2,1);
+    $a = random(800,1200,100);
+    $select = random(8,15,1);
+    $s = $a/10;
+
+    $j = random(1,3,1);
+
+    $x = random(12,15,1);
+    $y = random(5,6,1);
+
+    $a1 = Compute("C($x-2*$y+$y-1,$x-2*$y)");
+    $a2 = Compute("C($x-3+($y-2), $y-2)");
+
+    #### The Poisson Distribution
+
+    There is a typesetter who, on average, makes one mistake per [$a] words. Assume that he is setting a book with [$s] words to a page.  Let [`S_{[$s]}`] be the number
+    of mistakes that he makes on a single page.
+
+    o What is the expected value of [`S_{[$s]}`]? [_____]{$s*1/$a}
+
+    o What is the exact probability that [`S_{[$s]}`] = [$j]? [_______]{ Compute(" C($s,$j)* ( (1/$a)^$j) * ( (1-1/$a)^($s-$j) ) ")->with(tolType=>'absolute', tolerance=>'0.000001') }
+
+    o What is the Poisson approximation of [`S_{[$s]}`] = [$j]? [_______]{ Compute(" e^(-.1)*(.1)^$j/$j! ") }
+
+
+
+
 ## Part 1
 
 ### (26) Mistake Group Digits of size 26

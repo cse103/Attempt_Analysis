@@ -1,3 +1,17 @@
+#Problem 12
+
+    $Outcomes=Set("{1,2,3,4,5,6,7,8,9,10,11,12}");
+    $Div2=Set("{2,4,6,8,10,12}");
+    $Div3=Set("{3,6,9,12}");
+    $Div6=Set("{6,12}");
+
+    ## Cards ##
+    o How many kings are in a standard deck of 52 cards? [_________]{4}
+    o What is the probability a uniformly randomly chosen card from a standard deck of 52 cards is a king?
+    [_________]{1/13}
+
+
+
 ## Part 1
 
 ### (10) Mistake Group Digits of size 10

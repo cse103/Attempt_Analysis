@@ -1,3 +1,42 @@
+#Problem 9
+
+    $n = random(40,100,5);
+    $d = random(2,5,1);
+
+    $dev = 1/sqrt(12)*sqrt($n);
+    $a1 = Compute("Q($d/$dev)");
+    $ans = Compute("2*Q($d/$dev)");
+
+    [$n] numbers are rounded off to the nearest integer and then summed. Suppose the individual round-off error are uniformly distributed over [` (-.5, .5) `].
+
+    ---
+    Remember a random variable that follows a uniform distribution over [`(a,b)`] has a mean of [`(a+b)/2`], and variance of [`\frac{1}{12}(b-a)^2`].
+
+    What is the mean of the round-off error of one number? [_____________]{0}
+
+    What is the standard deviation of the round-off error of one number? [_____________]{"sqrt(1/12)"}
+
+    ---
+    Suppose the *sum* of the round-off errors is [`Y`].
+
+    What is the mean of [`Y`]? [_____________]{0}
+
+    What is the standard deviation of [`Y`]? [_____________]{"1/sqrt(12)*sqrt($n)"}
+
+    ---
+    To compute the probability that the resultant sum of the [$n] numbers differs from the exact sum by more than [$d], we find the two tails on the distribution of [`Y`].
+
+    What is the z-score at [`Y=[$d]`] ? [__________]{"($d-0)/$dev"}.
+
+    What is the probability that the rounded sum is *larger* than the exact sum by more than [$d] ?[____________]{$a1}
+
+    What is the probability that the rounded sum *differs* from the exact sum by more than [$d] ?[____________]{$ans}
+
+
+
+
+
+
 ## Part 1
 
 ### (40) Mistake Group Fraction of size 40

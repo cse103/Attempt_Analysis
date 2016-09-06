@@ -1,3 +1,17 @@
+#Problem 13
+
+    $coins=random(9,11,1); # number of tosses of the dice
+
+    ## Tossing a coin ##
+    A fair coin is tossed [$coins] times.
+    o  There is a natural outcome space for the experiment of tossing coins in sequence, where the probability of each outcome is equally likely.  What is the size of this outcome space? [______]{Compute("2^$coins")}
+    o  What is the size of the event set for getting exactly [$coins-1] heads?  [______]{Compute("$coins!/($coins-1)!")}
+    o  What is the probability of getting exactly [$coins-1] heads? [_________]{Compute("($coins!/($coins-1)!)/2^$coins")}
+    o  What is the probability of getting at most [$coins-1] heads? [________]{Compute("1-1/2^$coins")}
+    o  What is the probability of getting exactly 6 heads?  [______________]{Compute("($coins!/(6!($coins-6)!))/2^$coins")}
+
+
+
 ## Part 1
 
 ### (292) Mistake Group Digits of size 292

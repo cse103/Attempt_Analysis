@@ -1,3 +1,18 @@
+#Problem 7:
+
+      To compute the p-value of rejecting the Null hypothesis we need to know the **number of degrees of freedom** of the distribution. As the size of the space is 3 there are three variables defining the distribution: [`p_1,p_2,p_3`] as these probabilities sum to one there [`v=2`] degrees of freedom. We then use the CDF for the [`\chi^2`] distribution with 2 degrees of freedom to calculate the p-values.
+
+      Answer the following questions yes (enter +1) or no (enter -1)
+
+      * A small value of the [`\chi^2`] statistic justifies **rejecting** the Null Hypothesis [______]{-1}
+      * A small value of the [`\chi^2`] statistic justifies **accepting** the Null Hypothesis [______]{-1}
+      * A large value of the [`\chi^2`] statistic justifies **rejecting** the Null Hypothesis [______]{+1}
+      * It is possible to reject both of the Null hypotheses:[__________]{+1}
+      * It is possible to not reject either of the Null hypotheses: [___________]{+1}
+
+
+
+
 ## Part 1
 
 ### (79) Mistake Group Wrong_Sign of size 79
