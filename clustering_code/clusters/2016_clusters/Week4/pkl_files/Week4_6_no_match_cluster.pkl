@@ -1,0 +1,314 @@
+(dp0
+S'1'
+p1
+(dp2
+S'kballew00'
+p3
+(dp4
+S'part1_correct_attempt'
+p5
+(lp6
+S'18:38:13'
+p7
+aV4*8
+p8
+asS'first_attempt'
+p9
+V2016-10-18 20:25:51
+p10
+sS'part1_incorrect_attempt'
+p11
+(lp12
+(S'0:00:00'
+p13
+V4*8-2
+p14
+tp15
+a(S'0:04:26'
+p16
+V4*8-1
+p17
+tp18
+a(S'0:16:16'
+p19
+V4*4-1+4*4-1
+p20
+tp21
+a(S'18:35:46'
+p22
+V4*8-1
+p23
+tp24
+assS'ottojursch'
+p25
+(dp26
+S'part1_correct_attempt'
+p27
+(lp28
+S'0:04:26'
+p29
+aV4*C(8,1)
+p30
+asg9
+V2016-10-19 06:58:46
+p31
+sS'part1_incorrect_attempt'
+p32
+(lp33
+(S'0:00:00'
+p34
+VC(8,2)
+p35
+tp36
+assS'NicoleStone'
+p37
+(dp38
+S'part1_correct_attempt'
+p39
+(lp40
+S'0:01:09'
+p41
+aV32
+p42
+asg9
+V2016-10-16 04:21:53
+p43
+sS'part1_incorrect_attempt'
+p44
+(lp45
+(S'0:00:00'
+p46
+V4!+4!
+p47
+tp48
+assS'yazin-yousif'
+p49
+(dp50
+S'part1_correct_attempt'
+p51
+(lp52
+S'1:59:49'
+p53
+aV32
+p54
+asg9
+V2016-10-19 05:34:30
+p55
+sS'part1_incorrect_attempt'
+p56
+(lp57
+(S'0:00:00'
+p58
+V(16+178)
+p59
+tp60
+assS'Ryan'
+p61
+(dp62
+S'part1_correct_attempt'
+p63
+(lp64
+S'4:12:10'
+p65
+aV32
+p66
+asg9
+V2016-10-19 04:56:52
+p67
+sS'part1_incorrect_attempt'
+p68
+(lp69
+(S'0:00:00'
+p70
+V16 + (C(47,2) - C(43,2))
+p71
+tp72
+a(S'0:59:20'
+p73
+VC(47,2) - C(39,2)
+p74
+tp75
+a(S'2:18:15'
+p76
+VC(47,2) - C(39,2)
+p77
+tp78
+a(S'3:03:51'
+p79
+VC(47,2) - C(43,2) + 16
+p80
+tp81
+a(S'3:04:41'
+p82
+VC(47,2) - C(43,2) + 32
+p83
+tp84
+a(S'3:05:45'
+p85
+V16 * (C(47,2) - C(43,2))
+p86
+tp87
+assS'QIQIWU'
+p88
+(dp89
+S'part1_correct_attempt'
+p90
+(lp91
+S'0:06:23'
+p92
+aV(4*4*2)
+p93
+asg9
+V2016-10-18 00:38:46
+p94
+sS'part1_incorrect_attempt'
+p95
+(lp96
+(S'0:00:00'
+p97
+V4*(C(52-5,2)-C(52-5-4,2))+4*(C(52-5,2)-C(52-5-4,2))
+p98
+tp99
+assS'thartopu'
+p100
+(dp101
+S'part1_correct_attempt'
+p102
+(lp103
+S'0:02:03'
+p104
+aV32
+p105
+asg9
+V2016-10-19 11:54:28
+p106
+sS'part1_incorrect_attempt'
+p107
+(lp108
+(S'0:00:00'
+p109
+VC(32,5)-C(20,5)
+p110
+tp111
+a(S'0:01:31'
+p112
+V3*4**2
+p113
+tp114
+asssS'2'
+p115
+(dp116
+S'Ken_Truong'
+p117
+(dp118
+S'part2_correct_attempt'
+p119
+(lp120
+S'0:00:00'
+p121
+aV32 / C(47,2)
+p122
+asg9
+V2016-10-16 10:31:10
+p123
+sS'part2_incorrect_attempt'
+p124
+(lp125
+(S'-1 day, 23:46:07'
+p126
+VC(52,5)
+p127
+tp128
+assS'piamsiri'
+p129
+(dp130
+S'part2_correct_attempt'
+p131
+(lp132
+S'0:00:00'
+p133
+aV32/C(47,2)
+p134
+asg9
+V2016-10-18 06:22:17
+p135
+sS'part2_incorrect_attempt'
+p136
+(lp137
+(S'-1 day, 23:17:58'
+p138
+V32 / 52*51*50*49*48
+p139
+tp140
+a(S'-1 day, 23:43:06'
+p141
+V(32/47*46) / (5/52*51*50*49*48)
+p142
+tp143
+a(S'-1 day, 23:43:32'
+p144
+V32/1
+p145
+tp146
+a(S'-1 day, 23:50:23'
+p147
+V(32/47*46) / (5! / (C(52,5)))
+p148
+tp149
+a(S'-1 day, 23:51:00'
+p150
+V(32/47*46) / (5 / (C(52,5)))
+p151
+tp152
+a(S'-1 day, 23:51:25'
+p153
+V(32/47*46) / (120 / (C(52,5)))
+p154
+tp155
+a(S'-1 day, 23:51:55'
+p156
+V(32/47*46) / (1 / (C(52,5)))
+p157
+tp158
+a(S'-1 day, 23:52:26'
+p159
+V(32/(C(47,2))) / (1/(C(52,5)))
+p160
+tp161
+a(S'-1 day, 23:54:29'
+p162
+V(32/(C(47,2))) / (1/(C(52,5)))
+p163
+tp164
+a(S'-1 day, 23:58:58'
+p165
+V(32/47*46) / 1
+p166
+tp167
+a(S'-1 day, 23:59:37'
+p168
+V32/47*46
+p169
+tp170
+assS'Ryan'
+p171
+(dp172
+S'part2_correct_attempt'
+p173
+(lp174
+S'0:00:00'
+p175
+aV32/C(47,2)
+p176
+asg9
+V2016-10-19 09:09:02
+p177
+sS'part2_incorrect_attempt'
+p178
+(lp179
+(S'-1 day, 23:59:01'
+p180
+VC(47,2)
+p181
+tp182
+asss.

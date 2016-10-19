@@ -9,11 +9,11 @@ from collections import defaultdict
 from StringIO import StringIO
 import prettytable
 
-def write_to_file(problem_id, set_id):
-    cluster = pickle.load(open(set_id + '/' + set_id+'_'+problem_id+'_cluster.pkl', 'rb'))
-    no_matching_cluster = pickle.load(open(set_id + '/' + set_id+'_'+problem_id+'_no_match_cluster.pkl', 'rb'))
+def write_to_file(path, problem_id, set_id):
+    cluster = pickle.load(open(path + set_id + '/pkl_files/' + set_id+'_'+problem_id+'_cluster.pkl', 'rb'))
+    no_matching_cluster = pickle.load(open(path + set_id + '/pkl_files/' + set_id+'_'+problem_id+'_no_match_cluster.pkl', 'rb'))
 
-    file_name = set_id + '/txt/' + set_id + '_' + problem_id + '_' + 'clusters.md'
+    file_name = path + set_id + '/md_files/' + set_id + '_' + problem_id + '_' + 'clusters.md'
     to_file = open(file_name, 'w')
 
     for part_id in sorted(cluster.keys()):
@@ -118,9 +118,10 @@ def write_to_file(problem_id, set_id):
         to_file.write('\n\n\n\n\n\n')
 
 if __name__ == '__main__':
+    path = '2016_clusters/'
     print 'Write cluster into file, please enter the following'
-    set_id = raw_input('set_id:')
+    set_id = raw_input('week_id:')
     problem_ids = raw_input('problem_ids(seperate with space):')
     ids = [i for i in problem_ids.split()]
     for pid in ids:
-        write_to_file(pid, set_id)
+        write_to_file(path, pid, set_id)

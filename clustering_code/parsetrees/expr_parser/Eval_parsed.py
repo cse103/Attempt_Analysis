@@ -1,5 +1,6 @@
 from math import factorial
 from math import sqrt
+from math import log
 import linecache
 import sys, traceback
 from string import replace
@@ -8,8 +9,8 @@ import traceback
 import operator as op
 from scipy.stats import norm
 
-import logging 
-log=logging.getLogger(__name__)
+#import logging 
+#logger=logging.getLogger('evaluate')
 
 def PrintException():
     exc_type, exc_obj, tb = sys.exc_info()
@@ -18,7 +19,7 @@ def PrintException():
     filename = f.f_code.co_filename
     linecache.checkcache(filename)
     line = linecache.getline(filename, lineno, f.f_globals)
-    log.error('EXCEPTION IN ({}, LINE {} "{}"): {}'.format(filename, lineno, line.strip(), exc_obj))
+    #logger.error('EXCEPTION IN ({}, LINE {} "{}"): {}'.format(filename, lineno, line.strip(), exc_obj))
 
 def is_number(s):
     try:
@@ -27,20 +28,28 @@ def is_number(s):
     except:
         return False
 
-
 def ncr(n, r):
     " compute n choose r "
     r = min(r, n-r)
     if r == 0: return 1
     numer = reduce(op.mul, xrange(n, n-r, -1))
     denom = reduce(op.mul, xrange(1, r+1))
-    return numer/denom
+    ans = numer/denom
+    try:
+        float(ans)
+    except OverflowError:
+        raise Exception('C(%s, %s) is too large and cause over flow'%(n,r))
+    return ans
 
 def npr(n, r):
     " Computer n permute r (order matters)"
     r = min(r, n-r)
     if r == 0: return 1
     numer = reduce(op.mul, xrange(n, n-r, -1))
+    try:
+        float(numer)
+    except OverflowError:
+        raise Exception('P(%s, %s) is too large and cause over flow'%(n,r))
     return numer
 
 def find_common_values(e1,e2):
@@ -52,17 +61,20 @@ def find_common_values(e1,e2):
        
     """
     
-
-def eval_parsed(e, label='R'):
+def eval_parsed(e, variable_list={}, label='R'):
     """ Evaluate a parsed expression, returns a tree, of the same form as the parse tree. Where each operator 
         is replaced by a tuple: (operator,evaluation result)
+
+        variable_list = {variable_name: number used to test}
     
         Still need to write code to handle varibles, lists and sets.
     """
     #print 'in eval_parsed e=|%s|, label=|%s|'%(str(e),str(label))
 
     def get_number(ev):
-        #print 'get_number got',ev
+        if not ev:
+            #logger.error('Eval_parsed: None object from get_number')
+            return
         if len(ev)==4 and ev[0]=='X': 
             return float(ev[1])
         elif len(ev)==1:
@@ -71,8 +83,7 @@ def eval_parsed(e, label='R'):
             return float(ev[0][1])
         
     try:
-        log.debug('eval_parsed, e="'+str(e)+'"')
-        #print 'eval_parsed, e=', str(e)
+        #logger.debug('Eval_parsed: e="'+str(e)+'"')
         if type(e)==type(None):
             return 0
         elif is_number(e)==1:
@@ -82,11 +93,20 @@ def eval_parsed(e, label='R'):
 
             if f=='{}':
                 return [[f,None,span,label],op]  # if element is a list, just return as is.
-            elif f=='V' and op=='e':
-                ans = 2.71828183
-                return ['X',ans,span,label]
+            elif f=='V':
+                if op=='e':
+                    ans = 2.71828183
+                    return ['X',ans,span,label]
+                elif variable_list:
+                    ans = variable_list[op]
+                    return ['X',ans,span,label]
+                else:
+                    raise Exception("%s doesn't have a value for evaluation"%op)
 
-            ev=eval_parsed(op,label+'.0')
+            ev=eval_parsed(op, variable_list, label=label+'.0')
+            if not ev:
+                return
+                
             v=get_number(ev)
             
             if f=='X':  # X indicates a single number
@@ -105,15 +125,20 @@ def eval_parsed(e, label='R'):
                 ans = norm.cdf(v)
             elif f=='sqrt':
                 ans = sqrt(v)
+            elif f=='log':
+                ans = log(v)
             else:
                 raise Exception('unrecognized unary operator %s in %s'%(f,e))
             return [[f,ans,span,label],ev]
         
         elif len(e)==3:
             [[f,span],op1,op2]=e
-            ev1=eval_parsed(op1, label+'.0')
+            ev1=eval_parsed(op1, variable_list, label=label+'.0')
+            ev2=eval_parsed(op2, variable_list, label=label+'.1')
+
+            if not ev1 or not ev2:
+                return
             v1=get_number(ev1)
-            ev2=eval_parsed(op2, label+'.1')
             v2=get_number(ev2)
 
             if f=='+':    ans= v1+v2
@@ -124,10 +149,6 @@ def eval_parsed(e, label='R'):
             elif f=='^': ans= v1**v2
             elif f=='C':
                 ans= ncr(int(v1), int(v2))
-                try:
-                    float(ans)
-                except OverflowError:
-                    raise Exception('C(%s, %s) is too large and cause over flow'%(v1,v2))
             elif f=='P':
                 ans= npr(int(v1), int(v2))
             else:
@@ -138,9 +159,9 @@ def eval_parsed(e, label='R'):
         else:
             raise Exception('Unrecognized expression form: %s'%e)
     except Exception as ex:
-        print 'Eval_parsed Exception:',ex
+        #print 'Eval_parsed Exception:',ex
         #traceback.print_exc()
-        traceback.print_exc(file=sys.stdout)
+        #traceback.print_exc(file=sys.stdout)
         return None
         #raise WebworkParseException(ex)
         # return ((e[0][0], None, e[0][1]),)
@@ -240,7 +261,7 @@ def parse_and_eval(string,values=[]):
         else:
             raise Exception
     except:
-        log.error('Exception in parse_and_eval, string=%s, parsed=%s'%(string,str(expr)))
+        #logger.error('Eval_parsed: Exception in parse_and_eval, string=%s, parsed=%s'%(string,str(expr)))
         traceback.print_exc(file=sys.stdout)
         return None
 
