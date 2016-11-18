@@ -1,0 +1,4717 @@
+(dp0
+S'3'
+p1
+(dp2
+S'oganguli'
+p3
+(dp4
+S'part3_correct_attempt'
+p5
+(lp6
+S'0:00:00'
+p7
+aV3.5
+p8
+asS'part3_incorrect_attempt'
+p9
+(lp10
+(S'-1 day, 23:57:30'
+p11
+V((1+4+9+16+25+36)/6) - (3.5)^2
+p12
+tp13
+asS'first_attempt'
+p14
+V2016-11-11 03:52:45
+p15
+ssS'migil'
+p16
+(dp17
+S'part3_correct_attempt'
+p18
+(lp19
+S'0:00:00'
+p20
+aV21/6
+p21
+asS'part3_incorrect_attempt'
+p22
+(lp23
+(S'-2 days, 1:34:27'
+p24
+V10.390625
+p25
+tp26
+asg14
+V2016-11-11 19:13:25
+p27
+ssS'nguyenbui'
+p28
+(dp29
+S'part3_correct_attempt'
+p30
+(lp31
+S'0:00:00'
+p32
+aV21/6
+p33
+asS'part3_incorrect_attempt'
+p34
+(lp35
+(S'-1 day, 23:40:08'
+p36
+V1/2
+p37
+tp38
+asg14
+V2016-11-12 01:08:32
+p39
+ssS'g5park'
+p40
+(dp41
+S'part3_correct_attempt'
+p42
+(lp43
+S'0:00:00'
+p44
+aV3.5
+p45
+asS'part3_incorrect_attempt'
+p46
+(lp47
+(S'-1 day, 23:23:20'
+p48
+V1/2+1+3/2+2+5/2+3
+p49
+tp50
+asg14
+V2016-11-11 22:19:57
+p51
+ssS'yash'
+p52
+(dp53
+S'part3_correct_attempt'
+p54
+(lp55
+S'0:00:00'
+p56
+aV1/6+2/6 + 3/6 + 4/6 + 5/6 + 1
+p57
+asS'part3_incorrect_attempt'
+p58
+(lp59
+(S'-1 day, 23:56:25'
+p60
+V1/6 + 2/6 + 3/6 + 4/5 + 5/6 + 1
+p61
+tp62
+asg14
+V2016-11-11 07:29:59
+p63
+ssS'kmesic'
+p64
+(dp65
+S'part3_correct_attempt'
+p66
+(lp67
+S'0:00:00'
+p68
+aV1/6*(1 + 2 + 3 + 4 + 5 + 6)
+p69
+asS'part3_incorrect_attempt'
+p70
+(lp71
+(S'-1 day, 23:43:40'
+p72
+V1*(1/6) + 2/6 * 3/6 *4/6 * 5/6 *6/6
+p73
+tp74
+asg14
+V2016-11-09 21:51:44
+p75
+ssS'JiaqiHuang'
+p76
+(dp77
+S'part3_correct_attempt'
+p78
+(lp79
+S'0:00:00'
+p80
+aV1/6(1+2+3+4+5+6)
+p81
+asS'part3_incorrect_attempt'
+p82
+(lp83
+(S'-1 day, 23:19:19'
+p84
+V1/6
+p85
+tp86
+a(S'-1 day, 23:25:39'
+p87
+V1/(1/6)
+p88
+tp89
+asg14
+V2016-11-11 07:33:12
+p90
+ssS'denniskim'
+p91
+(dp92
+S'part3_correct_attempt'
+p93
+(lp94
+S'0:00:00'
+p95
+aV(1/6*(1+2+3+4+5+6))
+p96
+asS'part3_incorrect_attempt'
+p97
+(lp98
+(S'-1 day, 23:33:11'
+p99
+V1/2*(1+2+3+4+5+6)
+p100
+tp101
+asg14
+V2016-11-08 20:28:30
+p102
+ssS'gurkiratsingh'
+p103
+(dp104
+S'part3_correct_attempt'
+p105
+(lp106
+S'0:00:00'
+p107
+aV(1/6)*(1+2+3+4+5+6)
+p108
+asS'part3_incorrect_attempt'
+p109
+(lp110
+(S'-1 day, 23:35:49'
+p111
+V1/6+1/3+1/2+4/3+5/6+1
+p112
+tp113
+asg14
+V2016-11-12 23:03:30
+p114
+ssS'shh176'
+p115
+(dp116
+S'part3_correct_attempt'
+p117
+(lp118
+S'0:00:00'
+p119
+aV3.5
+p120
+asS'part3_incorrect_attempt'
+p121
+(lp122
+(S'-1 day, 23:49:35'
+p123
+V1/2
+p124
+tp125
+asg14
+V2016-11-07 23:12:59
+p126
+ssS'djmoreno'
+p127
+(dp128
+S'part3_correct_attempt'
+p129
+(lp130
+S'0:00:00'
+p131
+aV(1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6)
+p132
+asS'part3_incorrect_attempt'
+p133
+(lp134
+(S'-1 day, 23:38:24'
+p135
+V(1/6)+(2/6)+(3/6)+(4/6)+(5/6)
+p136
+tp137
+asg14
+V2016-11-11 02:20:53
+p138
+ssS'MarianCrofts'
+p139
+(dp140
+S'part3_correct_attempt'
+p141
+(lp142
+S'0:00:00'
+p143
+aV1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 1
+p144
+asS'part3_incorrect_attempt'
+p145
+(lp146
+(S'-1 day, 23:45:57'
+p147
+V0*(1-6) + 1*6
+p148
+tp149
+asg14
+V2016-11-11 20:58:31
+p150
+ssS'kevin'
+p151
+(dp152
+S'part3_correct_attempt'
+p153
+(lp154
+S'0:00:00'
+p155
+aV7/2
+p156
+asS'part3_incorrect_attempt'
+p157
+(lp158
+(S'-1 day, 23:58:46'
+p159
+V1/6
+p160
+tp161
+asg14
+V2016-11-11 23:48:45
+p162
+ssS'Khang_Vinh'
+p163
+(dp164
+S'part3_correct_attempt'
+p165
+(lp166
+S'0:00:00'
+p167
+aV7/2
+p168
+asS'part3_incorrect_attempt'
+p169
+(lp170
+(S'-1 day, 23:34:58'
+p171
+V1/6
+p172
+tp173
+asg14
+V2016-11-09 18:18:53
+p174
+sssS'5'
+p175
+(dp176
+g127
+(dp177
+S'part5_correct_attempt'
+p178
+(lp179
+S'0:00:00'
+p180
+aV((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))+((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))
+p181
+asS'part5_incorrect_attempt'
+p182
+(lp183
+(S'-1 day, 23:38:24'
+p184
+V((1/6)+(2/6)+(3/6)+(4/6)+(5/6))+((1/6)+(2/6)+(3/6)+(4/6)+(5/6))
+p185
+tp186
+asg14
+g138
+ssS'Von'
+p187
+(dp188
+S'part5_correct_attempt'
+p189
+(lp190
+S'0:00:00'
+p191
+aV2 * (21/6)
+p192
+asS'part5_incorrect_attempt'
+p193
+(lp194
+(S'-1 day, 23:56:57'
+p195
+V(15/6)*2
+p196
+tp197
+asg14
+V2016-11-10 04:35:17
+p198
+ssS'scottychen'
+p199
+(dp200
+S'part5_correct_attempt'
+p201
+(lp202
+S'0:00:00'
+p203
+aV2*21/6
+p204
+asS'part5_incorrect_attempt'
+p205
+(lp206
+(S'-1 day, 23:57:20'
+p207
+V3+3
+p208
+tp209
+asg14
+V2016-11-12 04:59:35
+p210
+ssg40
+(dp211
+S'part5_correct_attempt'
+p212
+(lp213
+S'0:00:00'
+p214
+aV7
+p215
+asS'part5_incorrect_attempt'
+p216
+(lp217
+(S'-1 day, 23:23:20'
+p218
+V2(1/2+1+3/2+2+5/2+3)
+p219
+tp220
+asg14
+g51
+sssS'4'
+p221
+(dp222
+S'Ian'
+p223
+(dp224
+S'part4_correct_attempt'
+p225
+(lp226
+S'0:00:00'
+p227
+aV((1/6+4/6+9/6+16/6+25/6+6)-(1/6+2/6+3/6+4/6+5/6+1)^2)
+p228
+asS'part4_incorrect_attempt'
+p229
+(lp230
+(S'-1 day, 23:54:23'
+p231
+V(1/6+4/6+9/6+16/6+25/6+6)+(1/6+2/6+3/6+4/6+5/6+1)^2
+p232
+tp233
+asg14
+V2016-11-11 21:02:16
+p234
+ssS'til005'
+p235
+(dp236
+S'part4_correct_attempt'
+p237
+(lp238
+S'0:00:00'
+p239
+aV35/12
+p240
+asS'part4_incorrect_attempt'
+p241
+(lp242
+(S'-1 day, 23:58:09'
+p243
+V2.91
+p244
+tp245
+asg14
+V2016-11-11 06:04:12
+p246
+ssS'jzhao156'
+p247
+(dp248
+S'part4_correct_attempt'
+p249
+(lp250
+S'0:00:00'
+p251
+aV91/6 - (21/6)^2
+p252
+asS'part4_incorrect_attempt'
+p253
+(lp254
+(S'-1 day, 23:50:11'
+p255
+V91/6
+p256
+tp257
+asg14
+V2016-11-10 03:24:40
+p258
+ssS'AndrewYang24'
+p259
+(dp260
+S'part4_correct_attempt'
+p261
+(lp262
+S'0:00:00'
+p263
+aV17.5/6
+p264
+asS'part4_incorrect_attempt'
+p265
+(lp266
+(S'-1 day, 23:56:09'
+p267
+V17.25
+p268
+tp269
+a(S'-1 day, 23:57:24'
+p270
+V17.5
+p271
+tp272
+a(S'-1 day, 23:58:49'
+p273
+V(1-3.5)^2 + (2-3.5)^2 + (3-3.5)^2+(4-3.5)^2+(5-3.5)^2+(6-3.5)^2
+p274
+tp275
+asg14
+V2016-11-12 06:25:38
+p276
+ssS'jewidjaj'
+p277
+(dp278
+S'part4_correct_attempt'
+p279
+(lp280
+S'0:00:00'
+p281
+aV91/6 - (7/2)^2
+p282
+asS'part4_incorrect_attempt'
+p283
+(lp284
+(S'-1 day, 23:56:41'
+p285
+V91/6 - 2*(7/2) 
+p286
+tp287
+asg14
+V2016-11-10 18:31:44
+p288
+ssS'arman'
+p289
+(dp290
+S'part4_correct_attempt'
+p291
+(lp292
+S'0:00:00'
+p293
+aV(1^2*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6)-(1*1/6+2*1/6+3*1/6+4*1/6+5*1/6+6*1/6)^2
+p294
+asS'part4_incorrect_attempt'
+p295
+(lp296
+(S'-1 day, 23:42:15'
+p297
+V1*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6
+p298
+tp299
+asg14
+V2016-11-11 06:59:41
+p300
+ssS'Ryan_Yi'
+p301
+(dp302
+S'part4_correct_attempt'
+p303
+(lp304
+S'0:00:00'
+p305
+aV((1-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((2-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((3-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((4-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((5-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((6-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)
+p306
+asS'part4_incorrect_attempt'
+p307
+(lp308
+(S'-1 day, 23:54:10'
+p309
+V(((1-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((2-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((3-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((4-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6))  + (((5-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((6-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6))
+p310
+tp311
+asg14
+V2016-11-06 09:14:15
+p312
+ssS'aakian'
+p313
+(dp314
+S'part4_correct_attempt'
+p315
+(lp316
+S'0:00:00'
+p317
+aV4.6
+p318
+asS'part4_incorrect_attempt'
+p319
+(lp320
+(S'0:00:00'
+p321
+V4.6
+p322
+tp323
+asg14
+V2016-11-13 00:42:10
+p324
+ssS'abelmont'
+p325
+(dp326
+S'part4_correct_attempt'
+p327
+(lp328
+S'0:00:00'
+p329
+aV91/6-49/4
+p330
+asS'part4_incorrect_attempt'
+p331
+(lp332
+(S'-1 day, 23:46:11'
+p333
+V(3.5)^2
+p334
+tp335
+a(S'-1 day, 23:46:54'
+p336
+V12.25
+p337
+tp338
+a(S'-1 day, 23:54:56'
+p339
+V2.9167 
+p340
+tp341
+asg14
+V2016-11-07 22:52:44
+p342
+ssS'cwasley'
+p343
+(dp344
+S'part4_correct_attempt'
+p345
+(lp346
+S'0:00:00'
+p347
+aV55/6 + 6 - 3.5^2
+p348
+asS'part4_incorrect_attempt'
+p349
+(lp350
+(S'-1 day, 23:58:09'
+p351
+V55/6 + 6 - 3.5
+p352
+tp353
+asg14
+V2016-11-11 17:21:45
+p354
+ssS'Zixin_Li'
+p355
+(dp356
+S'part4_correct_attempt'
+p357
+(lp358
+S'0:00:00'
+p359
+aV2.916666667
+p360
+asS'part4_incorrect_attempt'
+p361
+(lp362
+(S'-1 day, 21:55:39'
+p363
+V2.92
+p364
+tp365
+asg14
+V2016-11-11 23:44:59
+p366
+ssS'Arash'
+p367
+(dp368
+S'part4_correct_attempt'
+p369
+(lp370
+S'0:00:00'
+p371
+aV91/6-(21/6)^2
+p372
+asS'part4_incorrect_attempt'
+p373
+(lp374
+(S'-1 day, 23:54:27'
+p375
+V91/6-21/6
+p376
+tp377
+a(S'-1 day, 23:58:40'
+p378
+V91/6-35/12
+p379
+tp380
+asg14
+V2016-11-13 00:50:12
+p381
+ssS'bfalk'
+p382
+(dp383
+S'part4_correct_attempt'
+p384
+(lp385
+S'0:00:00'
+p386
+aV(1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 1)^2
+p387
+asS'part4_incorrect_attempt'
+p388
+(lp389
+(S'-1 day, 23:14:19'
+p390
+V(1/6) - (1/6)^2
+p391
+tp392
+asg14
+V2016-11-09 00:26:12
+p393
+ssS'ddantas'
+p394
+(dp395
+S'part4_correct_attempt'
+p396
+(lp397
+S'0:00:00'
+p398
+aV((1/6)*(1+4+9+16+25+36))
+p399
+asS'part4_incorrect_attempt'
+p400
+(lp401
+(S'0:00:00'
+p402
+V((1/6)*(1+4+9+16+25+36))
+p403
+tp404
+asg14
+V2016-11-10 08:25:00
+p405
+ssg199
+(dp406
+S'part4_correct_attempt'
+p407
+(lp408
+S'0:00:00'
+p409
+aV(91/6)-(21/6)*(21/6)
+p410
+asS'part4_incorrect_attempt'
+p411
+(lp412
+(S'-1 day, 23:57:20'
+p413
+V11-9
+p414
+tp415
+asg14
+g210
+ssg115
+(dp416
+S'part4_correct_attempt'
+p417
+(lp418
+S'0:00:00'
+p419
+aV8.75/3
+p420
+asS'part4_incorrect_attempt'
+p421
+(lp422
+(S'-1 day, 23:49:35'
+p423
+V1/4
+p424
+tp425
+a(S'-1 day, 23:54:38'
+p426
+V18.5/6
+p427
+tp428
+asg14
+g126
+ssS'AkankshaMaurya'
+p429
+(dp430
+S'part4_correct_attempt'
+p431
+(lp432
+S'0:00:00'
+p433
+aV2.91
+p434
+asS'part4_incorrect_attempt'
+p435
+(lp436
+(S'-1 day, 23:57:01'
+p437
+V2.91
+p438
+tp439
+a(S'0:00:00'
+p440
+V2.91
+p441
+tp442
+asg14
+V2016-11-11 04:20:44
+p443
+ssS'migil'
+p444
+(dp445
+S'part4_correct_attempt'
+p446
+(lp447
+S'0:00:00'
+p448
+aV35/12
+p449
+asS'part4_incorrect_attempt'
+p450
+(lp451
+(S'-1 day, 23:54:22'
+p452
+V91/6
+p453
+tp454
+asg14
+g27
+ssS'URajkumar'
+p455
+(dp456
+S'part4_correct_attempt'
+p457
+(lp458
+S'0:00:00'
+p459
+aV(1/6 + 4/6 + 9/6 +16/6 + 25/6 + 6) - (1/6 + 1/3 + 1/2 + 2/3 + 5/6 + 1)^2
+p460
+asS'part4_incorrect_attempt'
+p461
+(lp462
+(S'-1 day, 23:47:46'
+p463
+V(1/6 + 4/6 + 9/6 +16/6 + 25/6 + 6) - (1/6 + 1/3 + 1/2 + 2/3 + 5/6 + 1)
+p464
+tp465
+asg14
+V2016-11-10 19:53:44
+p466
+ssS'CheyennePayne'
+p467
+(dp468
+S'part4_correct_attempt'
+p469
+(lp470
+S'0:00:00'
+p471
+aV35/12
+p472
+asS'part4_incorrect_attempt'
+p473
+(lp474
+(S'-1 day, 23:47:33'
+p475
+V1/36
+p476
+tp477
+a(S'-1 day, 23:50:25'
+p478
+V(3.5^2)/36
+p479
+tp480
+a(S'-1 day, 23:53:01'
+p481
+V5/36
+p482
+tp483
+asg14
+V2016-11-12 11:53:12
+p484
+ssS'brandon_vo'
+p485
+(dp486
+S'part4_correct_attempt'
+p487
+(lp488
+S'0:00:00'
+p489
+aV((1/6)*(1+4+9+16+25+36))-((1/6)*(1+2+3+4+5+6))^2
+p490
+asS'part4_incorrect_attempt'
+p491
+(lp492
+(S'-1 day, 23:55:06'
+p493
+V((1/6)(1+4+9+16+25+36))-((1/6)*(1+2+3+4+5+6))
+p494
+tp495
+asg14
+V2016-11-09 07:35:19
+p496
+ssS'NickWong'
+p497
+(dp498
+S'part4_correct_attempt'
+p499
+(lp500
+S'0:00:00'
+p501
+aV(1/6)*(1+4+9+16+25+36) - (1/6+2/6+3/6+4/6+5/6+6/6)*(1/6+2/6+3/6+4/6+5/6+6/6)
+p502
+asS'part4_incorrect_attempt'
+p503
+(lp504
+(S'-1 day, 23:46:35'
+p505
+V1/6+4/6+9/6+16/6+25/6+6
+p506
+tp507
+asg14
+V2016-11-10 07:35:50
+p508
+ssS'wangpin'
+p509
+(dp510
+S'part4_correct_attempt'
+p511
+(lp512
+S'0:00:00'
+p513
+aV91/6-3.5*3.5
+p514
+asS'part4_incorrect_attempt'
+p515
+(lp516
+(S'-1 day, 23:34:30'
+p517
+V12.5-3.5*3.5
+p518
+tp519
+asg14
+V2016-11-11 12:24:56
+p520
+ssS'pgupta'
+p521
+(dp522
+S'part4_correct_attempt'
+p523
+(lp524
+S'0:00:00'
+p525
+aV3.5 - (3.5*3.5)
+p526
+asS'part4_incorrect_attempt'
+p527
+(lp528
+(S'-1 day, 23:49:52'
+p529
+V3.5
+p530
+tp531
+asg14
+V2016-11-12 00:44:20
+p532
+ssS'a2evans'
+p533
+(dp534
+S'part4_correct_attempt'
+p535
+(lp536
+S'0:00:00'
+p537
+aV35/12
+p538
+asS'part4_incorrect_attempt'
+p539
+(lp540
+(S'-1 day, 23:44:33'
+p541
+V37/12
+p542
+tp543
+a(S'-1 day, 23:55:44'
+p544
+V37/12
+p545
+tp546
+asg14
+V2016-11-11 01:03:28
+p547
+ssS'alebedev'
+p548
+(dp549
+S'part4_correct_attempt'
+p550
+(lp551
+S'0:00:00'
+p552
+aV35/12
+p553
+asS'part4_incorrect_attempt'
+p554
+(lp555
+(S'-1 day, 23:53:49'
+p556
+V8.75
+p557
+tp558
+a(S'-1 day, 23:57:24'
+p559
+V2.92
+p560
+tp561
+asg14
+V2016-11-09 23:16:42
+p562
+ssS'jjgallaw'
+p563
+(dp564
+S'part4_correct_attempt'
+p565
+(lp566
+S'0:00:00'
+p567
+aV2.91666
+p568
+asS'part4_incorrect_attempt'
+p569
+(lp570
+(S'-1 day, 23:52:52'
+p571
+V12.25
+p572
+tp573
+a(S'0:00:00'
+p574
+V2.91666
+p575
+tp576
+asg14
+V2016-11-12 16:53:00
+p577
+ssS'vincebai'
+p578
+(dp579
+S'part4_correct_attempt'
+p580
+(lp581
+S'0:00:00'
+p582
+aV(91/6)-(3.5)^2
+p583
+asS'part4_incorrect_attempt'
+p584
+(lp585
+(S'-1 day, 23:54:44'
+p586
+V91/6+3.5^2
+p587
+tp588
+asg14
+V2016-11-08 02:43:13
+p589
+ssS'ssolanki'
+p590
+(dp591
+S'part4_correct_attempt'
+p592
+(lp593
+S'0:00:00'
+p594
+aV35/12
+p595
+asS'part4_incorrect_attempt'
+p596
+(lp597
+(S'-1 day, 23:58:25'
+p598
+V91/6
+p599
+tp600
+a(S'-1 day, 23:59:02'
+p601
+V91/6
+p602
+tp603
+asg14
+V2016-11-11 06:40:01
+p604
+ssS'gurkiratsingh'
+p605
+(dp606
+S'part4_correct_attempt'
+p607
+(lp608
+S'0:00:00'
+p609
+aV(1/6+4/6+9/6+16/6+25/6+36/6) - (3.5)^2
+p610
+asS'part4_incorrect_attempt'
+p611
+(lp612
+(S'-2 days, 12:28:06'
+p613
+V14.83
+p614
+tp615
+asg14
+g114
+ssg64
+(dp616
+S'part4_correct_attempt'
+p617
+(lp618
+S'0:00:00'
+p619
+aV(1/6*(1 + 4 + 9 + 16 + 25 + 36) ) -  (1/6*(1 + 2 + 3 + 4 + 5 + 6))^2
+p620
+asS'part4_incorrect_attempt'
+p621
+(lp622
+(S'-1 day, 23:43:40'
+p623
+V(1/6*(1+4+9+16+25+36)) - (1*(1/6) + 2/6 * 3/6 *4/6 * 5/6 *6/6)^2
+p624
+tp625
+asg14
+g75
+ssS'alvinyho'
+p626
+(dp627
+S'part4_correct_attempt'
+p628
+(lp629
+S'0:00:00'
+p630
+aV105/36
+p631
+asS'part4_incorrect_attempt'
+p632
+(lp633
+(S'-1 day, 17:45:38'
+p634
+V1/6+(4*1/6)+(9*1/6)+(16*1/6)+(25*1/6)+(36*1/6)
+p635
+tp636
+a(S'-1 day, 21:52:52'
+p637
+V1/6+4/6+9/6+16/6+25/6+36/6
+p638
+tp639
+asg14
+V2016-11-11 09:07:40
+p640
+ssg52
+(dp641
+S'part4_correct_attempt'
+p642
+(lp643
+S'0:00:00'
+p644
+aV(1/6+4/6 + 9/6 + 16/6 + 25/6 + 6) - (1/6+2/6 + 3/6 + 4/6 + 5/6 + 1)^2
+p645
+asS'part4_incorrect_attempt'
+p646
+(lp647
+(S'-1 day, 23:56:25'
+p648
+V(1/6 + 4/6 + 9/6 + 16/5 + 25/6 + 6) - (1/6 + 2/6 + 3/6 + 4/5 + 5/6 + 1)^2
+p649
+tp650
+asg14
+g63
+ssS'Bsgreenb'
+p651
+(dp652
+S'part4_correct_attempt'
+p653
+(lp654
+S'0:00:00'
+p655
+aV((1)*(1/6) + (4*(1/6)) + (9*(1/6)) + (16*(1/6)) + (25*(1/6)) + (36*(1/6))) - ((3.5)^2)
+p656
+asS'part4_incorrect_attempt'
+p657
+(lp658
+(S'-1 day, 23:42:06'
+p659
+V11/3
+p660
+tp661
+asg14
+V2016-11-09 00:53:37
+p662
+ssS'Alix'
+p663
+(dp664
+S'part4_correct_attempt'
+p665
+(lp666
+S'0:00:00'
+p667
+aV1/6+4*1/6+9*1/6+16*1/6+25*1/6+36*1/6 -(3.5^2)
+p668
+asS'part4_incorrect_attempt'
+p669
+(lp670
+(S'-1 day, 23:51:41'
+p671
+V15.16666
+p672
+tp673
+asg14
+V2016-11-10 06:59:44
+p674
+ssS'danFlorencio'
+p675
+(dp676
+S'part4_correct_attempt'
+p677
+(lp678
+S'0:00:00'
+p679
+aV35/12
+p680
+asS'part4_incorrect_attempt'
+p681
+(lp682
+(S'-1 day, 23:58:09'
+p683
+V5/12
+p684
+tp685
+asg14
+V2016-11-12 18:30:26
+p686
+ssS'gpagliar'
+p687
+(dp688
+S'part4_correct_attempt'
+p689
+(lp690
+S'0:00:00'
+p691
+aV1*(1/6)+4*(1/6)+9*(1/6)+16*(1/6)+25*(1/6)+36*(1/6)-(1*(1/6)+2*(1/6)+3*(1/6)+4*(1/6)+5*(1/6)+6*(1/6))^2 
+p692
+asS'part4_incorrect_attempt'
+p693
+(lp694
+(S'-1 day, 23:51:12'
+p695
+V(1*(1/6)+2*(1/6)+3*(1/6)+4*(1/6)+5*(1/6)+6*(1/6))^2
+p696
+tp697
+a(S'-1 day, 23:52:21'
+p698
+V(1*(1/6)+2*(1/6)+3*(1/6)+4*(1/6)+5*(1/6)+6*(1/6))^2 + 1*(1/6)+4*(1/6)+9*(1/6)+16*(1/6)+25*(1/6)+36*(1/6)
+p699
+tp700
+asg14
+V2016-11-09 17:41:06
+p701
+ssS'joshchao'
+p702
+(dp703
+S'part4_correct_attempt'
+p704
+(lp705
+S'0:00:00'
+p706
+aV105/36
+p707
+asS'part4_incorrect_attempt'
+p708
+(lp709
+(S'-1 day, 23:55:43'
+p710
+V91/6
+p711
+tp712
+a(S'-1 day, 23:58:02'
+p713
+V70/6
+p714
+tp715
+asg14
+V2016-11-10 02:03:52
+p716
+ssS'vicorhe'
+p717
+(dp718
+S'part4_correct_attempt'
+p719
+(lp720
+S'0:00:00'
+p721
+aV(1+4+9+16+25+36)/6-(21/6)^2
+p722
+asS'part4_incorrect_attempt'
+p723
+(lp724
+(S'-1 day, 12:38:26'
+p725
+V(441/36)-21/6
+p726
+tp727
+a(S'-1 day, 12:59:05'
+p728
+V(1+4+9+16+25+36)/6
+p729
+tp730
+a(S'-1 day, 22:45:12'
+p731
+V(1+4+9+16+25+36)/36
+p732
+tp733
+asg14
+V2016-11-11 12:44:59
+p734
+ssS'RodrigoM'
+p735
+(dp736
+S'part4_correct_attempt'
+p737
+(lp738
+S'0:00:00'
+p739
+aV35/12
+p740
+asS'part4_incorrect_attempt'
+p741
+(lp742
+(S'-1 day, 23:50:25'
+p743
+V2.91
+p744
+tp745
+a(S'-1 day, 23:56:07'
+p746
+V2.92
+p747
+tp748
+asg14
+V2016-11-08 23:51:14
+p749
+ssS'JaceLu'
+p750
+(dp751
+S'part4_correct_attempt'
+p752
+(lp753
+S'0:00:00'
+p754
+aV35/12
+p755
+asS'part4_incorrect_attempt'
+p756
+(lp757
+(S'-1 day, 23:58:03'
+p758
+V2.25
+p759
+tp760
+asg14
+V2016-11-11 09:31:01
+p761
+ssS'hunguyen'
+p762
+(dp763
+S'part4_correct_attempt'
+p764
+(lp765
+S'0:00:00'
+p766
+aV91/6 - 3.5^2
+p767
+asS'part4_incorrect_attempt'
+p768
+(lp769
+(S'-1 day, 23:56:25'
+p770
+V3.5^2
+p771
+tp772
+a(S'-1 day, 23:56:52'
+p773
+Vsqrt(3.5)
+p774
+tp775
+asg14
+V2016-11-11 04:16:28
+p776
+ssS'DongyoonHan'
+p777
+(dp778
+S'part4_correct_attempt'
+p779
+(lp780
+S'0:00:00'
+p781
+aV(91*(1/6))-(21/6)^2
+p782
+asS'part4_incorrect_attempt'
+p783
+(lp784
+(S'-1 day, 23:57:25'
+p785
+V(91*6)-(21/6)^2
+p786
+tp787
+asg14
+V2016-11-10 21:34:22
+p788
+ssS'wtchiu'
+p789
+(dp790
+S'part4_correct_attempt'
+p791
+(lp792
+S'0:00:00'
+p793
+aV(1/6)*(1*1+2*2+3*3+4*4+5*5+6*6)-(((1/6)*(1+2+3+4+5+6))^2)
+p794
+asS'part4_incorrect_attempt'
+p795
+(lp796
+(S'-1 day, 23:48:05'
+p797
+V(1/6)*(1*1+2*2+3*3+4*4+5*5+6*6)
+p798
+tp799
+asg14
+V2016-11-11 08:12:12
+p800
+ssS'ccaine'
+p801
+(dp802
+S'part4_correct_attempt'
+p803
+(lp804
+S'0:00:00'
+p805
+aV35/12
+p806
+asS'part4_incorrect_attempt'
+p807
+(lp808
+(S'-1 day, 23:58:15'
+p809
+V3.5+3.5^2
+p810
+tp811
+asg14
+V2016-11-12 01:57:09
+p812
+ssg127
+(dp813
+S'part4_correct_attempt'
+p814
+(lp815
+S'0:00:00'
+p816
+aV((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(36/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))^2
+p817
+asS'part4_incorrect_attempt'
+p818
+(lp819
+(S'-1 day, 23:38:24'
+p820
+V((1/6)+(2/6)+(3/6)+(4/6)+(5/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6))
+p821
+tp822
+asg14
+g138
+ssS'nguyenbui'
+p823
+(dp824
+S'part4_correct_attempt'
+p825
+(lp826
+S'0:00:00'
+p827
+aV((1*1/6+4*1/6+9*1/6+16*1/6+25*1/6+36*1/6) - 21/6*21/6)
+p828
+asS'part4_incorrect_attempt'
+p829
+(lp830
+(S'-1 day, 23:46:35'
+p831
+V3.5
+p832
+tp833
+asg14
+g39
+ssS'ray003'
+p834
+(dp835
+S'part4_correct_attempt'
+p836
+(lp837
+S'0:00:00'
+p838
+aV105/36
+p839
+asS'part4_incorrect_attempt'
+p840
+(lp841
+(S'-1 day, 23:53:43'
+p842
+V((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2
+p843
+tp844
+a(S'-1 day, 23:56:12'
+p845
+V((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2
+p846
+tp847
+a(S'-1 day, 23:59:00'
+p848
+V(((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2)/6
+p849
+tp850
+asg14
+V2016-11-07 04:20:46
+p851
+ssS'JaceChan'
+p852
+(dp853
+S'part4_correct_attempt'
+p854
+(lp855
+S'0:00:00'
+p856
+aV35/12
+p857
+asS'part4_incorrect_attempt'
+p858
+(lp859
+(S'-2 days, 22:05:27'
+p860
+V3.5
+p861
+tp862
+asg14
+V2016-11-12 20:07:45
+p863
+ssS't2xu'
+p864
+(dp865
+S'part4_correct_attempt'
+p866
+(lp867
+S'0:00:00'
+p868
+aV(1*(1/6)+(2^2)*(1/6)+(3^2)*(1/6)+(4^2)*(1/6)+(5^2)*(1/6)+(6^2)*1/6)-(1*(1/6)+2*(1/6)+3*(1/6)+4*(1/6)+5*(1/6)+1)^2
+p869
+asS'part4_incorrect_attempt'
+p870
+(lp871
+(S'-1 day, 22:16:50'
+p872
+V1/6+2/6+3/6+4/6+5/6+6/6
+p873
+tp874
+asg14
+V2016-11-11 04:32:06
+p875
+ssS'ChenquanJiang'
+p876
+(dp877
+S'part4_correct_attempt'
+p878
+(lp879
+S'0:00:00'
+p880
+aV35/12
+p881
+asS'part4_incorrect_attempt'
+p882
+(lp883
+(S'-1 day, 13:13:03'
+p884
+V35/4
+p885
+tp886
+asg14
+V2016-11-12 20:04:36
+p887
+ssS'zow006'
+p888
+(dp889
+S'part4_correct_attempt'
+p890
+(lp891
+S'0:00:00'
+p892
+aV91/6-(21/6)^2
+p893
+asS'part4_incorrect_attempt'
+p894
+(lp895
+(S'-1 day, 23:58:17'
+p896
+V91/6-21/6
+p897
+tp898
+asg14
+V2016-11-07 22:37:47
+p899
+ssS'adejesus'
+p900
+(dp901
+S'part4_correct_attempt'
+p902
+(lp903
+S'0:00:00'
+p904
+aV(1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (3.5)^2
+p905
+asS'part4_incorrect_attempt'
+p906
+(lp907
+(S'-1 day, 23:28:10'
+p908
+V15.167 - (3.5^2)
+p909
+tp910
+a(S'-1 day, 23:56:04'
+p911
+V(1/6 +2/6 + 9/6 + 16/6 + 25/6 + 36/6) - (1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6)^2
+p912
+tp913
+asg14
+V2016-11-10 05:53:21
+p914
+ssS'PaulWall43'
+p915
+(dp916
+S'part4_correct_attempt'
+p917
+(lp918
+S'0:00:00'
+p919
+aV((1/6) + (4/6) + (9/6) + (16/6) + (25/6) + (36/6)) - (3.5)^2
+p920
+asS'part4_incorrect_attempt'
+p921
+(lp922
+(S'-1 day, 23:52:30'
+p923
+V((1/6) + (2/3) + (9/6) + (16/6) + (25/6) + 6) - ((1/6) + (1/3) + (1/2) + (2/3) + (5/6)+1)
+p924
+tp925
+asg14
+V2016-11-08 01:29:16
+p926
+ssS'gtran'
+p927
+(dp928
+S'part4_correct_attempt'
+p929
+(lp930
+S'0:00:00'
+p931
+aV35/12
+p932
+asS'part4_incorrect_attempt'
+p933
+(lp934
+(S'-1 day, 23:54:58'
+p935
+V25/4
+p936
+tp937
+asg14
+V2016-11-12 16:51:07
+p938
+ssS'WilliamZhu'
+p939
+(dp940
+S'part4_correct_attempt'
+p941
+(lp942
+S'0:00:00'
+p943
+aV17.5/6
+p944
+asS'part4_incorrect_attempt'
+p945
+(lp946
+(S'-1 day, 23:56:09'
+p947
+V17.25
+p948
+tp949
+a(S'-1 day, 23:59:08'
+p950
+V17.25/6
+p951
+tp952
+asg14
+V2016-11-11 05:04:45
+p953
+ssS'cshmerli'
+p954
+(dp955
+S'part4_correct_attempt'
+p956
+(lp957
+S'0:00:00'
+p958
+aV(1+4+9+16+25+36)/6 - ((1+2+3+4+5+6)/6)^2
+p959
+asS'part4_incorrect_attempt'
+p960
+(lp961
+(S'-3 days, 20:30:49'
+p962
+V1/6-(1/6)^2
+p963
+tp964
+asg14
+V2016-11-12 23:05:27
+p965
+ssS'erxue'
+p966
+(dp967
+S'part4_correct_attempt'
+p968
+(lp969
+S'0:00:00'
+p970
+aV35/12
+p971
+asS'part4_incorrect_attempt'
+p972
+(lp973
+(S'-1 day, 23:58:14'
+p974
+V35/6
+p975
+tp976
+asg14
+V2016-11-12 19:02:18
+p977
+ssS'vnoxdev'
+p978
+(dp979
+S'part4_correct_attempt'
+p980
+(lp981
+S'0:00:00'
+p982
+aV91/6-3.5^2
+p983
+asS'part4_incorrect_attempt'
+p984
+(lp985
+(S'-1 day, 23:51:31'
+p986
+V3.5
+p987
+tp988
+a(S'-1 day, 23:58:12'
+p989
+V178.96666667 - 3.5^2
+p990
+tp991
+asg14
+V2016-11-11 19:06:58
+p992
+ssS'rrivasfe'
+p993
+(dp994
+S'part4_correct_attempt'
+p995
+(lp996
+S'0:00:00'
+p997
+aV2.916666
+p998
+asS'part4_incorrect_attempt'
+p999
+(lp1000
+(S'-1 day, 23:12:57'
+p1001
+V11.666
+p1002
+tp1003
+a(S'-1 day, 23:14:51'
+p1004
+V2.91666
+p1005
+tp1006
+asg14
+V2016-11-09 04:36:45
+p1007
+ssg76
+(dp1008
+S'part4_correct_attempt'
+p1009
+(lp1010
+S'0:00:00'
+p1011
+aV35/12
+p1012
+asS'part4_incorrect_attempt'
+p1013
+(lp1014
+(S'-1 day, 23:19:19'
+p1015
+V1/6-1/36
+p1016
+tp1017
+asg14
+g90
+ssS'A4chau'
+p1018
+(dp1019
+S'part4_correct_attempt'
+p1020
+(lp1021
+S'0:00:00'
+p1022
+aV91/6-(21/6)^2
+p1023
+asS'part4_incorrect_attempt'
+p1024
+(lp1025
+(S'-1 day, 23:53:45'
+p1026
+V1/4
+p1027
+tp1028
+a(S'-1 day, 23:55:30'
+p1029
+V(1/6)-(1/6)^2
+p1030
+tp1031
+asg14
+V2016-11-09 21:50:52
+p1032
+ssS'aahmadi'
+p1033
+(dp1034
+S'part4_correct_attempt'
+p1035
+(lp1036
+S'0:00:00'
+p1037
+aV(1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2)/6 - 3.5^2
+p1038
+asS'part4_incorrect_attempt'
+p1039
+(lp1040
+(S'-1 day, 23:55:04'
+p1041
+V2.91
+p1042
+tp1043
+asg14
+V2016-11-12 21:29:04
+p1044
+ssS'yiw392'
+p1045
+(dp1046
+S'part4_correct_attempt'
+p1047
+(lp1048
+S'0:00:00'
+p1049
+aV35/12
+p1050
+asS'part4_incorrect_attempt'
+p1051
+(lp1052
+(S'-1 day, 23:58:15'
+p1053
+V35/16
+p1054
+tp1055
+asg14
+V2016-11-11 01:21:43
+p1056
+ssS'RobinO'
+p1057
+(dp1058
+S'part4_correct_attempt'
+p1059
+(lp1060
+S'0:00:00'
+p1061
+aV(91/6)-(21/6)^2
+p1062
+asS'part4_incorrect_attempt'
+p1063
+(lp1064
+(S'-1 day, 23:57:52'
+p1065
+V((1-21/6)^2)+((2-21/6)^2)+((3-21/6)^2)+((4-21/6)^2)+((5-21/6)^2)+((6-21/6)^2)
+p1066
+tp1067
+asg14
+V2016-11-06 21:28:47
+p1068
+ssS'AndyYeung'
+p1069
+(dp1070
+S'part4_correct_attempt'
+p1071
+(lp1072
+S'0:00:00'
+p1073
+aV(1/6+4/6+9/6+16/6+25/6+36/6)-(1/6+2/6+3/6+4/6+5/6+1)**2
+p1074
+asS'part4_incorrect_attempt'
+p1075
+(lp1076
+(S'-1 day, 23:24:52'
+p1077
+V(1/6+4/6+9/6+16/6+25/6+36/6)-(1/6+2/6+3/6+4/6+5/6+1)
+p1078
+tp1079
+asg14
+V2016-11-11 00:59:52
+p1080
+ssS'mvkrishn'
+p1081
+(dp1082
+S'part4_correct_attempt'
+p1083
+(lp1084
+S'0:00:00'
+p1085
+aV(1 + 4 + 9 + 16 + 25 + 36)/6 - (3.5)^2
+p1086
+asS'part4_incorrect_attempt'
+p1087
+(lp1088
+(S'-1 day, 23:58:49'
+p1089
+V6.166666667
+p1090
+tp1091
+asg14
+V2016-11-10 19:49:43
+p1092
+ssS'DannyDelCerro'
+p1093
+(dp1094
+S'part4_correct_attempt'
+p1095
+(lp1096
+S'0:00:00'
+p1097
+aV((1+4+9+16+25+36)/6)-(((1+2+3+4+5+6)/6)*((1+2+3+4+5+6)/6))
+p1098
+asS'part4_incorrect_attempt'
+p1099
+(lp1100
+(S'-1 day, 23:55:18'
+p1101
+V(1+4+9+16+25+36)/6
+p1102
+tp1103
+asg14
+V2016-11-09 18:31:19
+p1104
+ssS'kel116'
+p1105
+(dp1106
+S'part4_correct_attempt'
+p1107
+(lp1108
+S'0:00:00'
+p1109
+aV35/12
+p1110
+asS'part4_incorrect_attempt'
+p1111
+(lp1112
+(S'-1 day, 23:59:03'
+p1113
+V2.92
+p1114
+tp1115
+asg14
+V2016-11-12 23:04:51
+p1116
+ssS'linhaoyu'
+p1117
+(dp1118
+S'part4_correct_attempt'
+p1119
+(lp1120
+S'0:00:00'
+p1121
+aV35/12
+p1122
+asS'part4_incorrect_attempt'
+p1123
+(lp1124
+(S'-1 day, 23:56:37'
+p1125
+V71/20
+p1126
+tp1127
+a(S'-1 day, 23:58:00'
+p1128
+V71/24
+p1129
+tp1130
+asg14
+V2016-11-10 22:02:39
+p1131
+ssS'a9zhao'
+p1132
+(dp1133
+S'part4_correct_attempt'
+p1134
+(lp1135
+S'0:00:00'
+p1136
+aV2.91666666667
+p1137
+asS'part4_incorrect_attempt'
+p1138
+(lp1139
+(S'-1 day, 22:46:12'
+p1140
+V15.1666666667	
+p1141
+tp1142
+a(S'-1 day, 22:49:14'
+p1143
+V90/6
+p1144
+tp1145
+asg14
+V2016-11-11 23:38:33
+p1146
+ssS'oganguli'
+p1147
+(dp1148
+S'part4_correct_attempt'
+p1149
+(lp1150
+S'0:00:00'
+p1151
+aV(1+4+9+16+25+36)/6 - (3.5)^2
+p1152
+asS'part4_incorrect_attempt'
+p1153
+(lp1154
+(S'-1 day, 23:33:25'
+p1155
+V(1/6)*(5/6)
+p1156
+tp1157
+a(S'-1 day, 23:56:59'
+p1158
+V((1+4+9+16+25+36)/4) - (3.5)^2
+p1159
+tp1160
+asg14
+g15
+ssS'kevinpham'
+p1161
+(dp1162
+S'part4_correct_attempt'
+p1163
+(lp1164
+S'0:00:00'
+p1165
+aV91/6-3.5^2
+p1166
+asS'part4_incorrect_attempt'
+p1167
+(lp1168
+(S'-1 day, 23:55:15'
+p1169
+V2.917
+p1170
+tp1171
+asg14
+V2016-11-11 03:31:45
+p1172
+ssg187
+(dp1173
+S'part4_correct_attempt'
+p1174
+(lp1175
+S'0:00:00'
+p1176
+aV((1 + 4 + 9 + 16 + 25 + 36) / 6) - ((21/6)^2)
+p1177
+asS'part4_incorrect_attempt'
+p1178
+(lp1179
+(S'-1 day, 23:56:57'
+p1180
+V((1/6) + (4/6) + (9/6) + (16/6) + (25/6) + (36/6)) - ((15/6)^2)
+p1181
+tp1182
+asg14
+g198
+ssS'Ankush_Sarow'
+p1183
+(dp1184
+S'part4_correct_attempt'
+p1185
+(lp1186
+S'0:00:00'
+p1187
+aV(1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6)^2
+p1188
+asS'part4_incorrect_attempt'
+p1189
+(lp1190
+(S'-1 day, 23:53:08'
+p1191
+V(1/6 + 4/6 + 9/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6)^2
+p1192
+tp1193
+asg14
+V2016-11-08 19:26:29
+p1194
+ssS'm2olsen'
+p1195
+(dp1196
+S'part4_correct_attempt'
+p1197
+(lp1198
+S'0:00:00'
+p1199
+aV35/12
+p1200
+asS'part4_incorrect_attempt'
+p1201
+(lp1202
+(S'-1 day, 23:50:23'
+p1203
+V1.5
+p1204
+tp1205
+asg14
+V2016-11-11 20:30:30
+p1206
+ssS'Riyang'
+p1207
+(dp1208
+S'part4_correct_attempt'
+p1209
+(lp1210
+S'0:00:00'
+p1211
+aV91/6-(21/6)^2
+p1212
+asS'part4_incorrect_attempt'
+p1213
+(lp1214
+(S'-1 day, 23:56:34'
+p1215
+V70/6
+p1216
+tp1217
+asg14
+V2016-11-07 23:30:37
+p1218
+ssS'zkvick'
+p1219
+(dp1220
+S'part4_correct_attempt'
+p1221
+(lp1222
+S'0:00:00'
+p1223
+aV15+(1/6)-((3.5)^2)
+p1224
+asS'part4_incorrect_attempt'
+p1225
+(lp1226
+(S'-1 day, 23:58:27'
+p1227
+V15+(1/3)-(3.5)^2
+p1228
+tp1229
+asg14
+V2016-11-11 21:58:39
+p1230
+ssS'HaeJoonYoon'
+p1231
+(dp1232
+S'part4_correct_attempt'
+p1233
+(lp1234
+S'0:00:00'
+p1235
+aV(91/6) - (49/4)
+p1236
+asS'part4_incorrect_attempt'
+p1237
+(lp1238
+(S'-1 day, 23:57:04'
+p1239
+V(81/6) - (49/4)
+p1240
+tp1241
+asg14
+V2016-11-10 11:42:06
+p1242
+ssS'evahuynh'
+p1243
+(dp1244
+S'part4_correct_attempt'
+p1245
+(lp1246
+S'0:00:00'
+p1247
+aV((1+4+9+16+25+36)/6)-((1+2+3+4+5+6)/6)^2
+p1248
+asS'part4_incorrect_attempt'
+p1249
+(lp1250
+(S'-1 day, 23:56:51'
+p1251
+V((1+4+9+25+36)/6)-((1+2+3+4+5+6)/6)^2
+p1252
+tp1253
+asg14
+V2016-11-07 19:51:44
+p1254
+ssS'pesca'
+p1255
+(dp1256
+S'part4_correct_attempt'
+p1257
+(lp1258
+S'0:00:00'
+p1259
+aV(1+4+9+16+25+36)/6 - (21/6)^2
+p1260
+asS'part4_incorrect_attempt'
+p1261
+(lp1262
+(S'-2 days, 16:03:00'
+p1263
+V(1+4+9+16+25+36)/36 + (21/6)^2
+p1264
+tp1265
+asg14
+V2016-11-08 23:51:00
+p1266
+ssS'thartopu'
+p1267
+(dp1268
+S'part4_correct_attempt'
+p1269
+(lp1270
+S'0:00:00'
+p1271
+aV((91/6)-(3.5)^2)
+p1272
+asS'part4_incorrect_attempt'
+p1273
+(lp1274
+(S'-1 day, 23:58:22'
+p1275
+V(91/6)-(3/5)^2
+p1276
+tp1277
+asg14
+V2016-11-12 07:04:48
+p1278
+ssS'DRavida'
+p1279
+(dp1280
+S'part4_correct_attempt'
+p1281
+(lp1282
+S'0:00:00'
+p1283
+aV105/36
+p1284
+asS'part4_incorrect_attempt'
+p1285
+(lp1286
+(S'-1 day, 3:50:17'
+p1287
+V306.25
+p1288
+tp1289
+a(S'-1 day, 23:26:42'
+p1290
+V53/3
+p1291
+tp1292
+asg14
+V2016-11-12 23:01:52
+p1293
+ssS'woguan'
+p1294
+(dp1295
+S'part4_correct_attempt'
+p1296
+(lp1297
+S'0:00:00'
+p1298
+aV(91/6)-3.5^2
+p1299
+asS'part4_incorrect_attempt'
+p1300
+(lp1301
+(S'-1 day, 13:07:25'
+p1302
+V3.5
+p1303
+tp1304
+a(S'-1 day, 23:32:09'
+p1305
+V5/36
+p1306
+tp1307
+a(S'-1 day, 23:44:43'
+p1308
+V21-3.5^2
+p1309
+tp1310
+asg14
+V2016-11-10 19:33:51
+p1311
+ssS'aspindle'
+p1312
+(dp1313
+S'part4_correct_attempt'
+p1314
+(lp1315
+S'0:00:00'
+p1316
+aV35/12
+p1317
+asS'part4_incorrect_attempt'
+p1318
+(lp1319
+(S'-1 day, 23:40:10'
+p1320
+V35/2
+p1321
+tp1322
+a(S'-1 day, 23:45:29'
+p1323
+V35/4
+p1324
+tp1325
+a(S'-1 day, 23:54:44'
+p1326
+V63/4
+p1327
+tp1328
+asg14
+V2016-11-11 01:48:43
+p1329
+ssg151
+(dp1330
+S'part4_correct_attempt'
+p1331
+(lp1332
+S'0:00:00'
+p1333
+aV35/12
+p1334
+asS'part4_incorrect_attempt'
+p1335
+(lp1336
+(S'-1 day, 23:58:46'
+p1337
+V5/36
+p1338
+tp1339
+asg14
+g162
+ssS'Yangc'
+p1340
+(dp1341
+S'part4_correct_attempt'
+p1342
+(lp1343
+S'0:00:00'
+p1344
+aV(1/6)*(1+2^2+3^2+4^2+5^2+6^2)-((1/6)*(1+2+3+4+5+6))^2
+p1345
+asS'part4_incorrect_attempt'
+p1346
+(lp1347
+(S'-1 day, 23:53:49'
+p1348
+V(1/6)*(1+4+9+16+25+36)+((1/6)*(1+2+3+4+5+6))^2
+p1349
+tp1350
+asg14
+V2016-11-12 05:12:06
+p1351
+ssS'shuang'
+p1352
+(dp1353
+S'part4_correct_attempt'
+p1354
+(lp1355
+S'0:00:00'
+p1356
+aV91/6-(21/6)^2
+p1357
+asS'part4_incorrect_attempt'
+p1358
+(lp1359
+(S'-1 day, 23:57:26'
+p1360
+V91/6
+p1361
+tp1362
+asg14
+V2016-11-11 04:22:13
+p1363
+ssS'g5park'
+p1364
+(dp1365
+S'part4_correct_attempt'
+p1366
+(lp1367
+S'0:00:00'
+p1368
+aV(1/6+4/6+9/6+16/6+25/6+6)-(12.25)
+p1369
+asS'part4_incorrect_attempt'
+p1370
+(lp1371
+(S'-1 day, 23:27:38'
+p1372
+V24.5
+p1373
+tp1374
+a(S'-1 day, 23:58:46'
+p1375
+V1/6+4/6+9/6+16/6+25/6+6
+p1376
+tp1377
+asg14
+g51
+ssS'CharlesCruz'
+p1378
+(dp1379
+S'part4_correct_attempt'
+p1380
+(lp1381
+S'0:00:00'
+p1382
+aV(91/6)-12.25
+p1383
+asS'part4_incorrect_attempt'
+p1384
+(lp1385
+(S'-1 day, 23:45:24'
+p1386
+V329/12
+p1387
+tp1388
+a(S'-1 day, 23:50:25'
+p1389
+V(91/6)+(441/36)
+p1390
+tp1391
+asg14
+V2016-11-08 02:54:56
+p1392
+ssS'dkeirouz'
+p1393
+(dp1394
+S'part4_correct_attempt'
+p1395
+(lp1396
+S'0:00:00'
+p1397
+aV1/6*(1+4+9+16+25+36)-(1/6*(1+2+3+4+5+6))^2
+p1398
+asS'part4_incorrect_attempt'
+p1399
+(lp1400
+(S'-1 day, 20:39:14'
+p1401
+V(1+4+9+16+25+36)/6-(1+2+3+4+5+6)/6
+p1402
+tp1403
+asg14
+V2016-11-11 03:39:47
+p1404
+ssS'Ken_Truong'
+p1405
+(dp1406
+S'part4_correct_attempt'
+p1407
+(lp1408
+S'0:00:00'
+p1409
+aV105/36
+p1410
+asS'part4_incorrect_attempt'
+p1411
+(lp1412
+(S'-1 day, 23:55:32'
+p1413
+V528/16
+p1414
+tp1415
+asg14
+V2016-11-10 09:19:53
+p1416
+ssS'ThuanNguyen'
+p1417
+(dp1418
+S'part4_correct_attempt'
+p1419
+(lp1420
+S'0:00:00'
+p1421
+aV91/6-49/4
+p1422
+asS'part4_incorrect_attempt'
+p1423
+(lp1424
+(S'-1 day, 23:43:03'
+p1425
+V59-49/4
+p1426
+tp1427
+asg14
+V2016-11-10 20:02:00
+p1428
+ssS'NicoleStone'
+p1429
+(dp1430
+S'part4_correct_attempt'
+p1431
+(lp1432
+S'0:00:00'
+p1433
+aV((1+4+9+16+25+36)/6)-(3.5)^2
+p1434
+asS'part4_incorrect_attempt'
+p1435
+(lp1436
+(S'-1 day, 23:52:52'
+p1437
+V2.92
+p1438
+tp1439
+asg14
+V2016-11-12 21:27:01
+p1440
+ssS'JessKwok'
+p1441
+(dp1442
+S'part4_correct_attempt'
+p1443
+(lp1444
+S'0:00:00'
+p1445
+aV35/12
+p1446
+asS'part4_incorrect_attempt'
+p1447
+(lp1448
+(S'-1 day, 23:54:26'
+p1449
+V2.5
+p1450
+tp1451
+asg14
+V2016-11-09 23:53:43
+p1452
+ssS'Ryan'
+p1453
+(dp1454
+S'part4_correct_attempt'
+p1455
+(lp1456
+S'0:00:00'
+p1457
+aV91/6 - 441/36
+p1458
+asS'part4_incorrect_attempt'
+p1459
+(lp1460
+(S'-1 day, 23:55:58'
+p1461
+V110/6 - ((21/6)^2)
+p1462
+tp1463
+a(S'-1 day, 23:57:06'
+p1464
+V101/6 + ((21/6)^2)
+p1465
+tp1466
+a(S'-1 day, 23:58:48'
+p1467
+V91/6 + ((21/6)^2)
+p1468
+tp1469
+asg14
+V2016-11-08 18:24:21
+p1470
+ssS'Joonhan'
+p1471
+(dp1472
+S'part4_correct_attempt'
+p1473
+(lp1474
+S'0:00:00'
+p1475
+aV(91/6)-(49/4)
+p1476
+asS'part4_incorrect_attempt'
+p1477
+(lp1478
+(S'-1 day, 23:58:04'
+p1479
+V(90/6)-(49/36)
+p1480
+tp1481
+asg14
+V2016-11-11 02:17:58
+p1482
+ssS'tzc007'
+p1483
+(dp1484
+S'part4_correct_attempt'
+p1485
+(lp1486
+S'0:00:00'
+p1487
+aV1/6*(1+4+9+16+25+36) - (1/6*(1+2+3+4+5+6))^2
+p1488
+asS'part4_incorrect_attempt'
+p1489
+(lp1490
+(S'-1 day, 23:58:22'
+p1491
+V1/6*(1+4+9+16+25+36)
+p1492
+tp1493
+asg14
+V2016-11-11 06:25:10
+p1494
+ssS'Kevin_Pansawira'
+p1495
+(dp1496
+S'part4_correct_attempt'
+p1497
+(lp1498
+S'0:00:00'
+p1499
+aV91/6 - (7/2) * (7/2)
+p1500
+asS'part4_incorrect_attempt'
+p1501
+(lp1502
+(S'-1 day, 22:39:36'
+p1503
+V1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6
+p1504
+tp1505
+asg14
+V2016-11-11 08:16:38
+p1506
+ssS'axl004'
+p1507
+(dp1508
+S'part4_correct_attempt'
+p1509
+(lp1510
+S'0:00:00'
+p1511
+aV(1/6+4/6+9/6+16/6+25/6+36/6) -3.5*3.5
+p1512
+asS'part4_incorrect_attempt'
+p1513
+(lp1514
+(S'-1 day, 23:58:39'
+p1515
+V(1/6+4/6+9/6+16/6+25/6+46/6) - 3.5*3.5
+p1516
+tp1517
+asg14
+V2016-11-11 19:55:04
+p1518
+ssS'Lpascual'
+p1519
+(dp1520
+S'part4_correct_attempt'
+p1521
+(lp1522
+S'0:00:00'
+p1523
+aV((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(36/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))^2
+p1524
+asS'part4_incorrect_attempt'
+p1525
+(lp1526
+(S'-2 days, 22:15:43'
+p1527
+V11.6
+p1528
+tp1529
+asg14
+V2016-11-11 05:10:59
+p1530
+ssS'tbenari'
+p1531
+(dp1532
+S'part4_correct_attempt'
+p1533
+(lp1534
+S'0:00:00'
+p1535
+aV91/6 - (3.5)^2
+p1536
+asS'part4_incorrect_attempt'
+p1537
+(lp1538
+(S'-1 day, 23:57:41'
+p1539
+V91/6 - 3.5
+p1540
+tp1541
+asg14
+V2016-11-11 07:19:47
+p1542
+ssS'KevinKlein'
+p1543
+(dp1544
+S'part4_correct_attempt'
+p1545
+(lp1546
+S'0:00:00'
+p1547
+aV91/6 - 12.25
+p1548
+asS'part4_incorrect_attempt'
+p1549
+(lp1550
+(S'-1 day, 23:58:40'
+p1551
+V91/6
+p1552
+tp1553
+asg14
+V2016-11-08 03:21:00
+p1554
+ssS'anMihaly'
+p1555
+(dp1556
+S'part4_correct_attempt'
+p1557
+(lp1558
+S'0:00:00'
+p1559
+aV35/12
+p1560
+asS'part4_incorrect_attempt'
+p1561
+(lp1562
+(S'-4 days, 23:25:31'
+p1563
+V2.9
+p1564
+tp1565
+asg14
+V2016-11-10 03:30:49
+p1566
+ssS'denniskim'
+p1567
+(dp1568
+S'part4_correct_attempt'
+p1569
+(lp1570
+S'0:00:00'
+p1571
+aV(1/6*(1+4+9+16+25+36)) - (1/6*(1+2+3+4+5+6))^2
+p1572
+asS'part4_incorrect_attempt'
+p1573
+(lp1574
+(S'-1 day, 23:55:51'
+p1575
+V(1/6*(1+4+9+16+25+36)) + (1/6*(1+2+3+4+5+6))
+p1576
+tp1577
+a(S'-1 day, 23:57:49'
+p1578
+V((1/6*(1+4+9+16+25+36)) - (1/6*(1+2+3+4+5+6)))
+p1579
+tp1580
+asg14
+g102
+ssS'rshroyer'
+p1581
+(dp1582
+S'part4_incorrect_attempt'
+p1583
+(lp1584
+(S'-2 days, 5:34:29'
+p1585
+V2.92
+p1586
+tp1587
+a(S'-2 days, 5:35:10'
+p1588
+V2.9
+p1589
+tp1590
+a(S'-2 days, 5:56:57'
+p1591
+V2.92
+p1592
+tp1593
+a(S'-2 days, 5:57:21'
+p1594
+V2.91
+p1595
+tp1596
+a(S'-2 days, 5:58:30'
+p1597
+V2.916
+p1598
+tp1599
+asg14
+V2016-11-13 00:55:12
+p1600
+sssS'6'
+p1601
+(dp1602
+g223
+(dp1603
+S'part6_incorrect_attempt'
+p1604
+(lp1605
+(S'-1 day, 23:54:23'
+p1606
+V((1/6+4/6+9/6+16/6+25/6+6)+(1/6+2/6+3/6+4/6+5/6+1)^2)*2
+p1607
+tp1608
+asg14
+g234
+sS'part6_correct_attempt'
+p1609
+(lp1610
+S'0:00:00'
+p1611
+aV((1/6+4/6+9/6+16/6+25/6+6)-(1/6+2/6+3/6+4/6+5/6+1)^2)+((1/6+4/6+9/6+16/6+25/6+6)-(1/6+2/6+3/6+4/6+5/6+1)^2)
+p1612
+assg235
+(dp1613
+S'part6_incorrect_attempt'
+p1614
+(lp1615
+(S'-1 day, 23:58:09'
+p1616
+V5.82
+p1617
+tp1618
+asg14
+g246
+sS'part6_correct_attempt'
+p1619
+(lp1620
+S'0:00:00'
+p1621
+aV35/6
+p1622
+assg259
+(dp1623
+S'part6_incorrect_attempt'
+p1624
+(lp1625
+(S'-1 day, 23:56:09'
+p1626
+V34.5
+p1627
+tp1628
+a(S'-1 day, 23:58:49'
+p1629
+V((1-3.5)^2 + (2-3.5)^2 + (3-3.5)^2+(4-3.5)^2+(5-3.5)^2+(6-3.5)^2)*2
+p1630
+tp1631
+asg14
+g276
+sS'part6_correct_attempt'
+p1632
+(lp1633
+S'0:00:00'
+p1634
+aV17.5/3
+p1635
+assg289
+(dp1636
+S'part6_incorrect_attempt'
+p1637
+(lp1638
+(S'-1 day, 23:42:15'
+p1639
+V(1*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6)+(1*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6)
+p1640
+tp1641
+asg14
+g300
+sS'part6_correct_attempt'
+p1642
+(lp1643
+S'0:00:00'
+p1644
+aV((1^2*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6)-(1*1/6+2*1/6+3*1/6+4*1/6+5*1/6+6*1/6)^2)+((1^2*1/6+2^2*1/6+3^2*1/6+4^2*1/6+5^2*1/6+6^2*1/6)-(1*1/6+2*1/6+3*1/6+4*1/6+5*1/6+6*1/6)^2)
+p1645
+assg301
+(dp1646
+S'part6_incorrect_attempt'
+p1647
+(lp1648
+(S'-1 day, 23:54:10'
+p1649
+V((((1-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((2-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((3-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((4-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6))  + (((5-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((6-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6))) + ((((1-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((2-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((3-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((4-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6))  + (((5-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)) + (((6-(1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6))^2) * (1/6)))
+p1650
+tp1651
+asg14
+g312
+sS'part6_correct_attempt'
+p1652
+(lp1653
+S'0:00:00'
+p1654
+aV(((1-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((2-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((3-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((4-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((5-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((6-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)) + (((1-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((2-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((3-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((4-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6)+ ((5-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6) + ((6-((1 * 1/6) + (2 * 1/6)+ (3 * 1/6)+ (4 * 1/6)+ (5 * 1/6)+ (6 * 1/6)))^2 * 1/6))
+p1655
+assg888
+(dp1656
+S'part6_incorrect_attempt'
+p1657
+(lp1658
+(S'-1 day, 23:58:17'
+p1659
+V70/6+70/6
+p1660
+tp1661
+asg14
+g899
+sS'part6_correct_attempt'
+p1662
+(lp1663
+S'0:00:00'
+p1664
+aV2*(91/6-(21/6)^2)
+p1665
+assg76
+(dp1666
+S'part6_incorrect_attempt'
+p1667
+(lp1668
+(S'-1 day, 23:19:19'
+p1669
+V2*(1/6-1/36)
+p1670
+tp1671
+asg14
+g90
+sS'part6_correct_attempt'
+p1672
+(lp1673
+S'0:00:00'
+p1674
+aV35/6
+p1675
+assS'Jyrodgers'
+p1676
+(dp1677
+S'part6_incorrect_attempt'
+p1678
+(lp1679
+(S'-1 day, 21:14:29'
+p1680
+V1/6*(1^2+2^2+3^2+4^2+5^2+6^2)+3.5^2
+p1681
+tp1682
+a(S'-1 day, 21:41:43'
+p1683
+V(1/6*(1^2+2^2+3^2+4^2+5^2+6^2))+3.5^2
+p1684
+tp1685
+a(S'-1 day, 21:43:44'
+p1686
+V(1/6*(1+2+3+4+5+6)+1/6*(1+2+3+4+5+6))+(1/6*(1+2+3+4+5+6)+1/6*(1+2+3+4+5+6))^2
+p1687
+tp1688
+a(S'-1 day, 21:47:30'
+p1689
+V(7+7^2)
+p1690
+tp1691
+a(S'-1 day, 21:53:16'
+p1692
+V(7+7^2)+(7+7^2)
+p1693
+tp1694
+asg14
+V2016-11-11 21:36:27
+p1695
+ssg355
+(dp1696
+S'part6_incorrect_attempt'
+p1697
+(lp1698
+(S'-1 day, 21:55:39'
+p1699
+V5.84
+p1700
+tp1701
+asg14
+g366
+sS'part6_correct_attempt'
+p1702
+(lp1703
+S'0:00:00'
+p1704
+aV5.833333333
+p1705
+assg367
+(dp1706
+S'part6_incorrect_attempt'
+p1707
+(lp1708
+(S'-1 day, 23:54:27'
+p1709
+V(91/6-21/6)*2
+p1710
+tp1711
+a(S'-1 day, 23:58:40'
+p1712
+V(91/6-35/12)*2
+p1713
+tp1714
+asg14
+g381
+sS'part6_correct_attempt'
+p1715
+(lp1716
+S'0:00:00'
+p1717
+aV(91/6-(21/6)^2)*2
+p1718
+assg1267
+(dp1719
+S'part6_incorrect_attempt'
+p1720
+(lp1721
+(S'-1 day, 23:58:22'
+p1722
+V((91/6)-(3/5)^2)*2
+p1723
+tp1724
+asg14
+g1278
+sS'part6_correct_attempt'
+p1725
+(lp1726
+S'0:00:00'
+p1727
+aV((91/6)-(3.5)^2)*2
+p1728
+assg199
+(dp1729
+S'part6_incorrect_attempt'
+p1730
+(lp1731
+(S'-1 day, 23:57:20'
+p1732
+V2+2
+p1733
+tp1734
+asg14
+g210
+sS'part6_correct_attempt'
+p1735
+(lp1736
+S'0:00:00'
+p1737
+aV2*((91/6)-(21/6)*(21/6))
+p1738
+assS'shh176'
+p1739
+(dp1740
+S'part6_incorrect_attempt'
+p1741
+(lp1742
+(S'-1 day, 23:54:38'
+p1743
+V37/6
+p1744
+tp1745
+asg14
+g126
+sS'part6_correct_attempt'
+p1746
+(lp1747
+S'0:00:00'
+p1748
+aV17.5/3
+p1749
+assS'AkankshaMaurya'
+p1750
+(dp1751
+S'part6_incorrect_attempt'
+p1752
+(lp1753
+(S'0:00:00'
+p1754
+V5.83
+p1755
+tp1756
+asg14
+g443
+sS'part6_correct_attempt'
+p1757
+(lp1758
+S'0:00:00'
+p1759
+aV5.83
+p1760
+assg455
+(dp1761
+S'part6_incorrect_attempt'
+p1762
+(lp1763
+(S'-1 day, 23:47:46'
+p1764
+V2*((1/6 + 4/6 + 9/6 +16/6 + 25/6 + 6) - (1/6 + 1/3 + 1/2 + 2/3 + 5/6 + 1))
+p1765
+tp1766
+asg14
+g466
+sS'part6_correct_attempt'
+p1767
+(lp1768
+S'0:00:00'
+p1769
+aV2*((1/6 + 4/6 + 9/6 +16/6 + 25/6 + 6) - (1/6 + 1/3 + 1/2 + 2/3 + 5/6 + 1)^2)
+p1770
+assg444
+(dp1771
+S'part6_incorrect_attempt'
+p1772
+(lp1773
+(S'-1 day, 23:54:22'
+p1774
+V182/6
+p1775
+tp1776
+asg14
+g27
+sS'part6_correct_attempt'
+p1777
+(lp1778
+S'0:00:00'
+p1779
+aV35/6
+p1780
+assS'FrankHuang'
+p1781
+(dp1782
+S'part6_incorrect_attempt'
+p1783
+(lp1784
+(S'-1 day, 23:58:24'
+p1785
+V(1/6)*(2.5*2.5+1.5*1.5+0.5*0.5+0.5*0.5+1.5*1.5+2.5*2.5)
+p1786
+tp1787
+asg14
+V2016-11-12 07:11:07
+p1788
+sS'part6_correct_attempt'
+p1789
+(lp1790
+S'0:00:00'
+p1791
+aV(1/3)*(2.5*2.5+1.5*1.5+0.5*0.5+0.5*0.5+1.5*1.5+2.5*2.5)
+p1792
+assg467
+(dp1793
+S'part6_incorrect_attempt'
+p1794
+(lp1795
+(S'-1 day, 23:47:33'
+p1796
+V2/36
+p1797
+tp1798
+a(S'-1 day, 23:50:25'
+p1799
+V(7^2)/36
+p1800
+tp1801
+a(S'-1 day, 23:53:01'
+p1802
+V10/36
+p1803
+tp1804
+asg14
+g484
+sS'part6_correct_attempt'
+p1805
+(lp1806
+S'0:00:00'
+p1807
+aV70/12
+p1808
+assg485
+(dp1809
+S'part6_incorrect_attempt'
+p1810
+(lp1811
+(S'-1 day, 23:55:06'
+p1812
+V((1/6)(1+4+9+16+25+36))-((1/6)*(1+2+3+4+5+6))*2
+p1813
+tp1814
+asg14
+g496
+sS'part6_correct_attempt'
+p1815
+(lp1816
+S'0:00:00'
+p1817
+aV(((1/6)*(1+4+9+16+25+36))-((1/6)*(1+2+3+4+5+6))^2)*2
+p1818
+assg497
+(dp1819
+S'part6_incorrect_attempt'
+p1820
+(lp1821
+(S'-1 day, 23:46:35'
+p1822
+V1/6+4/6
+p1823
+tp1824
+asg14
+g508
+sS'part6_correct_attempt'
+p1825
+(lp1826
+S'0:00:00'
+p1827
+aV(1/6)*(1+4+9+16+25+36) - (1/6+2/6+3/6+4/6+5/6+6/6)*(1/6+2/6+3/6+4/6+5/6+6/6) + (1/6)*(1+4+9+16+25+36) - (1/6+2/6+3/6+4/6+5/6+6/6)*(1/6+2/6+3/6+4/6+5/6+6/6)
+p1828
+assS'kkhuong'
+p1829
+(dp1830
+S'part6_incorrect_attempt'
+p1831
+(lp1832
+(S'-1 day, 23:57:01'
+p1833
+V35/4
+p1834
+tp1835
+asg14
+V2016-11-11 09:47:13
+p1836
+sS'part6_correct_attempt'
+p1837
+(lp1838
+S'0:00:00'
+p1839
+aV35/6
+p1840
+assS'QIQIWU'
+p1841
+(dp1842
+S'part6_incorrect_attempt'
+p1843
+(lp1844
+(S'-1 day, 23:57:37'
+p1845
+V3/36
+p1846
+tp1847
+asg14
+V2016-11-09 21:22:40
+p1848
+sS'part6_correct_attempt'
+p1849
+(lp1850
+S'0:00:00'
+p1851
+aV35/12*2
+p1852
+assg509
+(dp1853
+S'part6_incorrect_attempt'
+p1854
+(lp1855
+(S'-1 day, 23:34:30'
+p1856
+V(12.5-3.5*3.5)+(12.5-3.5*3.5)
+p1857
+tp1858
+asg14
+g520
+sS'part6_correct_attempt'
+p1859
+(lp1860
+S'0:00:00'
+p1861
+aV(91/6-3.5*3.5)*2
+p1862
+assS'jar045'
+p1863
+(dp1864
+S'part6_incorrect_attempt'
+p1865
+(lp1866
+(S'-1 day, 23:53:54'
+p1867
+V(1/36) * (4+9+16+25+36+49+64+81+100+121+144)
+p1868
+tp1869
+asg14
+V2016-11-10 04:28:12
+p1870
+sS'part6_correct_attempt'
+p1871
+(lp1872
+S'0:00:00'
+p1873
+aV((1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (3.5 * 3.5)) * 2
+p1874
+assg521
+(dp1875
+S'part6_incorrect_attempt'
+p1876
+(lp1877
+(S'-1 day, 23:49:52'
+p1878
+V6/36
+p1879
+tp1880
+a(S'0:00:00'
+p1881
+V12/36
+p1882
+tp1883
+asg14
+g532
+sS'part6_correct_attempt'
+p1884
+(lp1885
+S'0:00:00'
+p1886
+aV12/36
+p1887
+assg533
+(dp1888
+S'part6_incorrect_attempt'
+p1889
+(lp1890
+(S'-1 day, 23:44:33'
+p1891
+V37/6
+p1892
+tp1893
+a(S'-1 day, 23:55:44'
+p1894
+V37/6
+p1895
+tp1896
+asg14
+g547
+sS'part6_correct_attempt'
+p1897
+(lp1898
+S'0:00:00'
+p1899
+aV70/12
+p1900
+assg548
+(dp1901
+S'part6_incorrect_attempt'
+p1902
+(lp1903
+(S'-1 day, 23:53:49'
+p1904
+V17.5
+p1905
+tp1906
+a(S'-1 day, 23:57:24'
+p1907
+V5.83
+p1908
+tp1909
+asg14
+g562
+sS'part6_correct_attempt'
+p1910
+(lp1911
+S'0:00:00'
+p1912
+aV70/12
+p1913
+assg563
+(dp1914
+S'part6_incorrect_attempt'
+p1915
+(lp1916
+(S'-1 day, 23:52:52'
+p1917
+V24.5
+p1918
+tp1919
+asg14
+g577
+sS'part6_correct_attempt'
+p1920
+(lp1921
+S'0:00:00'
+p1922
+aV5.83333
+p1923
+assg578
+(dp1924
+S'part6_incorrect_attempt'
+p1925
+(lp1926
+(S'-1 day, 23:54:44'
+p1927
+V2*(91/6+3.5^2)
+p1928
+tp1929
+asg14
+g589
+sS'part6_correct_attempt'
+p1930
+(lp1931
+S'0:00:00'
+p1932
+aV((91/6)-(3.5)^2)+((91/6)-(3.5)^2)
+p1933
+assg64
+(dp1934
+S'part6_incorrect_attempt'
+p1935
+(lp1936
+(S'-1 day, 23:43:40'
+p1937
+V((1/6*(1+4+9+16+25+36)) - (1*(1/6) + 2/6 * 3/6 *4/6 * 5/6 *6/6)^2) + ((1/6*(1+4+9+16+25+36)) - (1*(1/6) + 2/6 * 3/6 *4/6 * 5/6 *6/6)^2)
+p1938
+tp1939
+asg14
+g75
+sS'part6_correct_attempt'
+p1940
+(lp1941
+S'0:00:00'
+p1942
+aV((1/6*(1 + 4 + 9 + 16 + 25 + 36) ) -  (1/6*(1 + 2 + 3 + 4 + 5 + 6))^2) + ((1/6*(1 + 4 + 9 + 16 + 25 + 36) ) -  (1/6*(1 + 2 + 3 + 4 + 5 + 6))^2)
+p1943
+assS'katielau'
+p1944
+(dp1945
+S'part6_incorrect_attempt'
+p1946
+(lp1947
+(S'-1 day, 23:59:10'
+p1948
+V(1/6+2/6+3/6+4/6+5/6+1)*2
+p1949
+tp1950
+asg14
+V2016-11-10 00:39:51
+p1951
+sS'part6_correct_attempt'
+p1952
+(lp1953
+S'0:00:00'
+p1954
+aV(35/12)*2
+p1955
+assg52
+(dp1956
+S'part6_incorrect_attempt'
+p1957
+(lp1958
+(S'-1 day, 23:56:25'
+p1959
+V((1/6 + 4/6 + 9/6 + 16/5 + 25/6 + 6) - (1/6 + 2/6 + 3/6 + 4/5 + 5/6 + 1)^2)*2
+p1960
+tp1961
+asg14
+g63
+sS'part6_correct_attempt'
+p1962
+(lp1963
+S'0:00:00'
+p1964
+aV((1/6+4/6 + 9/6 + 16/6 + 25/6 + 6) - (1/6+2/6 + 3/6 + 4/6 + 5/6 + 1)^2)*2
+p1965
+assg651
+(dp1966
+S'part6_incorrect_attempt'
+p1967
+(lp1968
+(S'-1 day, 23:42:06'
+p1969
+V(11/3)*2
+p1970
+tp1971
+asg14
+g662
+sS'part6_correct_attempt'
+p1972
+(lp1973
+S'0:00:00'
+p1974
+aV(((1)*(1/6) + (4*(1/6)) + (9*(1/6)) + (16*(1/6)) + (25*(1/6)) + (36*(1/6))) - ((3.5)^2))*2
+p1975
+assg702
+(dp1976
+S'part6_incorrect_attempt'
+p1977
+(lp1978
+(S'-1 day, 23:55:43'
+p1979
+V2 * (91/6)
+p1980
+tp1981
+a(S'-1 day, 23:58:02'
+p1982
+V2 * (70/6)
+p1983
+tp1984
+asg14
+g716
+sS'part6_correct_attempt'
+p1985
+(lp1986
+S'0:00:00'
+p1987
+aV2 * (105/36)
+p1988
+assS'vicorhe'
+p1989
+(dp1990
+S'part6_incorrect_attempt'
+p1991
+(lp1992
+(S'-1 day, 12:59:05'
+p1993
+V2*((1+4+9+16+25+36)/6)
+p1994
+tp1995
+a(S'-1 day, 22:45:12'
+p1996
+V2*((1+4+9+16+25+36)/36)
+p1997
+tp1998
+asg14
+g734
+sS'part6_correct_attempt'
+p1999
+(lp2000
+S'0:00:00'
+p2001
+aV2*((1+4+9+16+25+36)/6-(21/6)^2)
+p2002
+assg750
+(dp2003
+S'part6_incorrect_attempt'
+p2004
+(lp2005
+(S'-1 day, 23:58:03'
+p2006
+V4.5
+p2007
+tp2008
+asg14
+g761
+sS'part6_correct_attempt'
+p2009
+(lp2010
+S'0:00:00'
+p2011
+aV35/6
+p2012
+assg789
+(dp2013
+S'part6_incorrect_attempt'
+p2014
+(lp2015
+(S'-1 day, 23:48:05'
+p2016
+V2*(1/6)*(1*1+2*2+3*3+4*4+5*5+6*6)
+p2017
+tp2018
+asg14
+g800
+sS'part6_correct_attempt'
+p2019
+(lp2020
+S'0:00:00'
+p2021
+aV2*((1/6)*(1*1+2*2+3*3+4*4+5*5+6*6)-(((1/6)*(1+2+3+4+5+6))^2))
+p2022
+assS'nesengup'
+p2023
+(dp2024
+S'part6_incorrect_attempt'
+p2025
+(lp2026
+(S'-1 day, 23:49:48'
+p2027
+V30.333
+p2028
+tp2029
+a(S'-1 day, 23:58:39'
+p2030
+V17348.5277778
+p2031
+tp2032
+a(S'0:00:00'
+p2033
+V5.8333
+p2034
+tp2035
+asg14
+V2016-11-11 23:53:54
+p2036
+sS'part6_correct_attempt'
+p2037
+(lp2038
+S'0:00:00'
+p2039
+aV5.8333
+p2040
+assg127
+(dp2041
+S'part6_incorrect_attempt'
+p2042
+(lp2043
+(S'-1 day, 23:38:24'
+p2044
+V((1/6)+(2/6)+(3/6)+(4/6)+(5/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6))+(((1/6)+(2/6)+(3/6)+(4/6)+(5/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)))
+p2045
+tp2046
+asg14
+g138
+sS'part6_correct_attempt'
+p2047
+(lp2048
+S'0:00:00'
+p2049
+aV(((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(36/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))^2)+(((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(36/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))^2)
+p2050
+assg823
+(dp2051
+S'part6_incorrect_attempt'
+p2052
+(lp2053
+(S'-1 day, 23:46:35'
+p2054
+V3/36
+p2055
+tp2056
+asg14
+g39
+sS'part6_correct_attempt'
+p2057
+(lp2058
+S'0:00:00'
+p2059
+aV2*((1*1/6+4*1/6+9*1/6+16*1/6+25*1/6+36*1/6) - 21/6*21/6)
+p2060
+assg834
+(dp2061
+S'part6_incorrect_attempt'
+p2062
+(lp2063
+(S'-1 day, 23:53:43'
+p2064
+V(((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2)+(((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2)
+p2065
+tp2066
+a(S'-1 day, 23:56:12'
+p2067
+V((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2+((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2
+p2068
+tp2069
+a(S'-1 day, 23:59:00'
+p2070
+V(((1/6)-(21/6))^2+((2/6)-(21/6))^2+((3/6)-(21/6))^2+((4/6)-(21/6))^2+((5/6)-(21/6))^2+((6/6)-(21/6))^2)/3
+p2071
+tp2072
+asg14
+g851
+sS'part6_correct_attempt'
+p2073
+(lp2074
+S'0:00:00'
+p2075
+aV(105/36)+(105/36)
+p2076
+assg852
+(dp2077
+S'part6_incorrect_attempt'
+p2078
+(lp2079
+(S'-2 days, 22:05:27'
+p2080
+V3/36
+p2081
+tp2082
+asg14
+g863
+sS'part6_correct_attempt'
+p2083
+(lp2084
+S'0:00:00'
+p2085
+aV35/12*2
+p2086
+assg864
+(dp2087
+S'part6_incorrect_attempt'
+p2088
+(lp2089
+(S'-1 day, 22:16:50'
+p2090
+V(1/6+2/6+3/6+4/6+5/6+6/6)*2
+p2091
+tp2092
+a(S'-1 day, 22:29:53'
+p2093
+V(((1/6)*(1-3.5)^2+(2/6)*(1-3.5)^2+(3/6)*(1-3.5)^2+(4/6)*(1-3.5)^2+(5/6)*(1-3.5)^2+(6/6)*(1-3.5)^2))*2
+p2094
+tp2095
+asg14
+g875
+sS'part6_correct_attempt'
+p2096
+(lp2097
+S'0:00:00'
+p2098
+aV((1*(1/6)+(2^2)*(1/6)+(3^2)*(1/6)+(4^2)*(1/6)+(5^2)*(1/6)+(6^2)*1/6)-(1*(1/6)+2*(1/6)+3*(1/6)+4*(1/6)+5*(1/6)+1)^2)*2
+p2099
+assg876
+(dp2100
+S'part6_incorrect_attempt'
+p2101
+(lp2102
+(S'-1 day, 13:13:03'
+p2103
+V35/2
+p2104
+tp2105
+asg14
+g887
+sS'part6_correct_attempt'
+p2106
+(lp2107
+S'0:00:00'
+p2108
+aV35/6
+p2109
+assg900
+(dp2110
+S'part6_incorrect_attempt'
+p2111
+(lp2112
+(S'-1 day, 23:28:10'
+p2113
+V(15.167 - (3.5^2)) + (15.167 - (3.5^2))
+p2114
+tp2115
+asg14
+g914
+sS'part6_correct_attempt'
+p2116
+(lp2117
+S'0:00:00'
+p2118
+aV((1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (3.5)^2) + ((1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (3.5)^2)
+p2119
+assg927
+(dp2120
+S'part6_incorrect_attempt'
+p2121
+(lp2122
+(S'-1 day, 23:54:58'
+p2123
+V25/2
+p2124
+tp2125
+asg14
+g938
+sS'part6_correct_attempt'
+p2126
+(lp2127
+S'0:00:00'
+p2128
+aV35/6
+p2129
+assg939
+(dp2130
+S'part6_incorrect_attempt'
+p2131
+(lp2132
+(S'-1 day, 23:56:09'
+p2133
+V34.5
+p2134
+tp2135
+a(S'-1 day, 23:59:08'
+p2136
+V(17.25/6)*2
+p2137
+tp2138
+asg14
+g953
+sS'part6_correct_attempt'
+p2139
+(lp2140
+S'0:00:00'
+p2141
+aV(17.5/6)*2
+p2142
+assg954
+(dp2143
+S'part6_incorrect_attempt'
+p2144
+(lp2145
+(S'-3 days, 20:30:49'
+p2146
+V2*(1/6-(1/6)^2)
+p2147
+tp2148
+asg14
+g965
+sS'part6_correct_attempt'
+p2149
+(lp2150
+S'0:00:00'
+p2151
+aV2*((1+4+9+16+25+36)/6-((1+2+3+4+5+6)/6)^2)
+p2152
+assg966
+(dp2153
+S'part6_incorrect_attempt'
+p2154
+(lp2155
+(S'-1 day, 23:58:14'
+p2156
+V35/3
+p2157
+tp2158
+asg14
+g977
+sS'part6_correct_attempt'
+p2159
+(lp2160
+S'0:00:00'
+p2161
+aV35/6
+p2162
+assS'rrivasfe'
+p2163
+(dp2164
+S'part6_incorrect_attempt'
+p2165
+(lp2166
+(S'-1 day, 23:55:39'
+p2167
+V11.666
+p2168
+tp2169
+a(S'0:00:00'
+p2170
+V5.8333
+p2171
+tp2172
+asg14
+g1007
+sS'part6_correct_attempt'
+p2173
+(lp2174
+S'0:00:00'
+p2175
+aV5.8333
+p2176
+assg1018
+(dp2177
+S'part6_incorrect_attempt'
+p2178
+(lp2179
+(S'-1 day, 23:53:45'
+p2180
+V1/2
+p2181
+tp2182
+a(S'-1 day, 23:55:30'
+p2183
+V(1/6)-(1/6)^2+(1/6)-(1/6)^2
+p2184
+tp2185
+asg14
+g1032
+sS'part6_correct_attempt'
+p2186
+(lp2187
+S'0:00:00'
+p2188
+aV91/6-(21/6)^2+91/6-(21/6)^2
+p2189
+assg1045
+(dp2190
+S'part6_incorrect_attempt'
+p2191
+(lp2192
+(S'-1 day, 23:58:15'
+p2193
+V35/8
+p2194
+tp2195
+asg14
+g1056
+sS'part6_correct_attempt'
+p2196
+(lp2197
+S'0:00:00'
+p2198
+aV35/6
+p2199
+assg1057
+(dp2200
+S'part6_incorrect_attempt'
+p2201
+(lp2202
+(S'-1 day, 23:57:52'
+p2203
+V((1-21/6)^2)+((2-21/6)^2)+((3-21/6)^2)+((4-21/6)^2)+((5-21/6)^2)+((6-21/6)^2)+((1-21/6)^2)+((2-21/6)^2)+((3-21/6)^2)+((4-21/6)^2)+((5-21/6)^2)+((6-21/6)^2)
+p2204
+tp2205
+asg14
+g1068
+sS'part6_correct_attempt'
+p2206
+(lp2207
+S'0:00:00'
+p2208
+aV((91/6)-(21/6)^2)+((91/6)-(21/6)^2)
+p2209
+assS'cameronEllis'
+p2210
+(dp2211
+S'part6_incorrect_attempt'
+p2212
+(lp2213
+(S'-1 day, 23:54:09'
+p2214
+V2*((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(1))
+p2215
+tp2216
+a(S'-1 day, 23:55:36'
+p2217
+V(2*((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(6)))-(2*((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(1)))
+p2218
+tp2219
+asg14
+V2016-11-07 05:53:11
+p2220
+sS'part6_correct_attempt'
+p2221
+(lp2222
+S'0:00:00'
+p2223
+aV(((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(1))^2)*2
+p2224
+assg1069
+(dp2225
+S'part6_incorrect_attempt'
+p2226
+(lp2227
+(S'-1 day, 23:24:52'
+p2228
+V2*((1/6+4/6+9/6+16/6+25/6+36/6)-(1/6+2/6+3/6+4/6+5/6+1))
+p2229
+tp2230
+asg14
+g1080
+sS'part6_correct_attempt'
+p2231
+(lp2232
+S'0:00:00'
+p2233
+aV2*((1/6+4/6+9/6+16/6+25/6+36/6)-(1/6+2/6+3/6+4/6+5/6+1)**2)
+p2234
+assg1081
+(dp2235
+S'part6_incorrect_attempt'
+p2236
+(lp2237
+(S'-1 day, 23:58:49'
+p2238
+V2*6.166666667
+p2239
+tp2240
+asg14
+g1092
+sS'part6_correct_attempt'
+p2241
+(lp2242
+S'0:00:00'
+p2243
+aV2*((1 + 4 + 9 + 16 + 25 + 36)/6 - (3.5)^2)
+p2244
+assS'g5park'
+p2245
+(dp2246
+S'part6_incorrect_attempt'
+p2247
+(lp2248
+(S'-1 day, 23:58:46'
+p2249
+V2(1/6+4/6+9/6+16/6+25/6+6)
+p2250
+tp2251
+asg14
+g51
+sS'part6_correct_attempt'
+p2252
+(lp2253
+S'0:00:00'
+p2254
+aV2((1/6+4/6+9/6+16/6+25/6+6)-(12.25))
+p2255
+assg1105
+(dp2256
+S'part6_incorrect_attempt'
+p2257
+(lp2258
+(S'-1 day, 23:59:03'
+p2259
+V5.84
+p2260
+tp2261
+asg14
+g1116
+sS'part6_correct_attempt'
+p2262
+(lp2263
+S'0:00:00'
+p2264
+aV35/6
+p2265
+assg1117
+(dp2266
+S'part6_incorrect_attempt'
+p2267
+(lp2268
+(S'-1 day, 23:56:37'
+p2269
+V71/10
+p2270
+tp2271
+a(S'-1 day, 23:58:00'
+p2272
+V71/12
+p2273
+tp2274
+asg14
+g1131
+sS'part6_correct_attempt'
+p2275
+(lp2276
+S'0:00:00'
+p2277
+aV35/6
+p2278
+assg1132
+(dp2279
+S'part6_incorrect_attempt'
+p2280
+(lp2281
+(S'-1 day, 22:46:12'
+p2282
+V15.1666666667 + 15.1666666
+p2283
+tp2284
+a(S'-1 day, 22:49:14'
+p2285
+V90/6 + 90/6
+p2286
+tp2287
+asg14
+g1146
+sS'part6_correct_attempt'
+p2288
+(lp2289
+S'0:00:00'
+p2290
+aV2.91666666667 + 2.91666666667
+p2291
+assg1147
+(dp2292
+S'part6_incorrect_attempt'
+p2293
+(lp2294
+(S'-1 day, 23:33:25'
+p2295
+V(1/6)*(5/6) + (1/6)*(5/6)
+p2296
+tp2297
+a(S'-1 day, 23:56:59'
+p2298
+V2*(((1+4+9+16+25+36)/4) - (3.5)^2)
+p2299
+tp2300
+asg14
+g15
+sS'part6_correct_attempt'
+p2301
+(lp2302
+S'0:00:00'
+p2303
+aV2*((1+4+9+16+25+36)/6 - (3.5)^2)
+p2304
+assg1161
+(dp2305
+S'part6_incorrect_attempt'
+p2306
+(lp2307
+(S'-1 day, 23:55:15'
+p2308
+V1.5
+p2309
+tp2310
+asg14
+g1172
+sS'part6_correct_attempt'
+p2311
+(lp2312
+S'0:00:00'
+p2313
+aV2(91/6-3.5^2)
+p2314
+assg1183
+(dp2315
+S'part6_incorrect_attempt'
+p2316
+(lp2317
+(S'-1 day, 23:53:08'
+p2318
+V2 * ((1/6 + 4/6 + 9/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6)^2)
+p2319
+tp2320
+asg14
+g1194
+sS'part6_correct_attempt'
+p2321
+(lp2322
+S'0:00:00'
+p2323
+aV2 * ((1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6)^2)
+p2324
+assg1207
+(dp2325
+S'part6_incorrect_attempt'
+p2326
+(lp2327
+(S'-1 day, 23:56:34'
+p2328
+V70/3
+p2329
+tp2330
+asg14
+g1218
+sS'part6_correct_attempt'
+p2331
+(lp2332
+S'0:00:00'
+p2333
+aV2*(91/6-(21/6)^2)
+p2334
+assg1219
+(dp2335
+S'part6_incorrect_attempt'
+p2336
+(lp2337
+(S'-1 day, 23:58:27'
+p2338
+V2*(15+(1/3)-(3.5)^2)
+p2339
+tp2340
+asg14
+g1230
+sS'part6_correct_attempt'
+p2341
+(lp2342
+S'0:00:00'
+p2343
+aV2*(15+(1/6)-((3.5)^2))
+p2344
+assg1231
+(dp2345
+S'part6_incorrect_attempt'
+p2346
+(lp2347
+(S'-1 day, 23:57:04'
+p2348
+V[(81/6) - (49/4)] + [(81/6) - (49/4)]
+p2349
+tp2350
+asg14
+g1242
+sS'part6_correct_attempt'
+p2351
+(lp2352
+S'0:00:00'
+p2353
+aV[(91/6) - (49/4)] + [(91/6) - (49/4)]
+p2354
+assg1243
+(dp2355
+S'part6_incorrect_attempt'
+p2356
+(lp2357
+(S'-1 day, 23:56:51'
+p2358
+V2*(((1+4+9+25+36)/6)-((1+2+3+4+5+6)/6)^2)
+p2359
+tp2360
+asg14
+g1254
+sS'part6_correct_attempt'
+p2361
+(lp2362
+S'0:00:00'
+p2363
+aV2*(((1+4+9+16+25+36)/6)-((1+2+3+4+5+6)/6)^2)
+p2364
+assg1255
+(dp2365
+S'part6_incorrect_attempt'
+p2366
+(lp2367
+(S'-2 days, 16:03:00'
+p2368
+V2*((1+4+9+16+25+36)/36 + (21/6)^2)
+p2369
+tp2370
+asg14
+g1266
+sS'part6_correct_attempt'
+p2371
+(lp2372
+S'0:00:00'
+p2373
+aV2*((1+4+9+16+25+36)/6 - (21/6)^2)
+p2374
+assg382
+(dp2375
+S'part6_incorrect_attempt'
+p2376
+(lp2377
+(S'-1 day, 23:14:19'
+p2378
+V2*((1/6) - (1/6)^2)
+p2379
+tp2380
+asg14
+g393
+sS'part6_correct_attempt'
+p2381
+(lp2382
+S'0:00:00'
+p2383
+aV2*((1/6 + 4/6 + 9/6 + 16/6 + 25/6 + 36/6) - (1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 1)^2)
+p2384
+assg1294
+(dp2385
+S'part6_incorrect_attempt'
+p2386
+(lp2387
+(S'-1 day, 13:07:25'
+p2388
+V5/36
+p2389
+tp2390
+a(S'-1 day, 23:32:09'
+p2391
+V5/36
+p2392
+tp2393
+a(S'-1 day, 23:58:34'
+p2394
+V3/36
+p2395
+tp2396
+asg14
+g1311
+sS'part6_correct_attempt'
+p2397
+(lp2398
+S'0:00:00'
+p2399
+aV(91/6)-3.5^2+(91/6)-3.5^2
+p2400
+assS'aspindle'
+p2401
+(dp2402
+S'part6_incorrect_attempt'
+p2403
+(lp2404
+(S'-1 day, 23:45:29'
+p2405
+V35/2
+p2406
+tp2407
+a(S'-1 day, 23:54:44'
+p2408
+V63/2
+p2409
+tp2410
+asg14
+g1329
+sS'part6_correct_attempt'
+p2411
+(lp2412
+S'0:00:00'
+p2413
+aV35/6
+p2414
+assg151
+(dp2415
+S'part6_incorrect_attempt'
+p2416
+(lp2417
+(S'-1 day, 23:58:46'
+p2418
+V5/18
+p2419
+tp2420
+asg14
+g162
+sS'part6_correct_attempt'
+p2421
+(lp2422
+S'0:00:00'
+p2423
+aV35/6
+p2424
+assg1340
+(dp2425
+S'part6_incorrect_attempt'
+p2426
+(lp2427
+(S'-1 day, 23:53:49'
+p2428
+V2*((1/6)*(1+4+9+16+25+36)+((1/6)*(1+2+3+4+5+6))^2)
+p2429
+tp2430
+asg14
+g1351
+sS'part6_correct_attempt'
+p2431
+(lp2432
+S'0:00:00'
+p2433
+aV2*((1/6)*(1+2^2+3^2+4^2+5^2+6^2)-((1/6)*(1+2+3+4+5+6))^2)
+p2434
+assg1352
+(dp2435
+S'part6_incorrect_attempt'
+p2436
+(lp2437
+(S'-1 day, 23:57:26'
+p2438
+V182/6
+p2439
+tp2440
+asg14
+g1363
+sS'part6_correct_attempt'
+p2441
+(lp2442
+S'0:00:00'
+p2443
+aV(91/6-(21/6)^2)*2
+p2444
+assS'Max'
+p2445
+(dp2446
+S'part6_incorrect_attempt'
+p2447
+(lp2448
+(S'-1 day, 23:54:23'
+p2449
+V(4/6)*(1+4+9+16+25+36) -7^2
+p2450
+tp2451
+asg14
+V2016-11-10 00:09:37
+p2452
+sS'part6_correct_attempt'
+p2453
+(lp2454
+S'0:00:00'
+p2455
+aV2*( (1+4+9+16+25+36)/6 - (7/2)^2)
+p2456
+assS'CharlesCruz'
+p2457
+(dp2458
+S'part6_incorrect_attempt'
+p2459
+(lp2460
+(S'-1 day, 23:50:25'
+p2461
+V((91/6)+(441/36))+((91/6)+(441/36))
+p2462
+tp2463
+asg14
+g1392
+sS'part6_correct_attempt'
+p2464
+(lp2465
+S'0:00:00'
+p2466
+aV2*((91/6)-12.25)
+p2467
+assg1393
+(dp2468
+S'part6_incorrect_attempt'
+p2469
+(lp2470
+(S'-1 day, 20:39:14'
+p2471
+V2*((1+4+9+16+25+36)/6-(1+2+3+4+5+6)/6)
+p2472
+tp2473
+asg14
+g1404
+sS'part6_correct_attempt'
+p2474
+(lp2475
+S'0:00:00'
+p2476
+aV(1/6*(1+4+9+16+25+36)-(1/6*(1+2+3+4+5+6))^2)*2
+p2477
+assS'ThuanNguyen'
+p2478
+(dp2479
+S'part6_incorrect_attempt'
+p2480
+(lp2481
+(S'-3 days, 2:01:27'
+p2482
+V91/6-49/4
+p2483
+tp2484
+a(S'-1 day, 23:43:03'
+p2485
+V187/2
+p2486
+tp2487
+a(S'-1 day, 23:50:02'
+p2488
+V329/6
+p2489
+tp2490
+asg14
+g1428
+sS'part6_correct_attempt'
+p2491
+(lp2492
+S'0:00:00'
+p2493
+aV35/6
+p2494
+assg1429
+(dp2495
+S'part6_incorrect_attempt'
+p2496
+(lp2497
+(S'-1 day, 23:52:52'
+p2498
+V5.83
+p2499
+tp2500
+asg14
+g1440
+sS'part6_correct_attempt'
+p2501
+(lp2502
+S'0:00:00'
+p2503
+aV(((1+4+9+16+25+36)/6)-(3.5)^2)+(((1+4+9+16+25+36)/6)-(3.5)^2)
+p2504
+assS'Ryan'
+p2505
+(dp2506
+S'part6_incorrect_attempt'
+p2507
+(lp2508
+(S'-1 day, 23:58:48'
+p2509
+V2 * (91/6 + ((21/6)^2))
+p2510
+tp2511
+asg14
+g1470
+sS'part6_correct_attempt'
+p2512
+(lp2513
+S'0:00:00'
+p2514
+aV2 * (91/6 - 441/36)
+p2515
+assg1471
+(dp2516
+S'part6_incorrect_attempt'
+p2517
+(lp2518
+(S'-1 day, 23:58:04'
+p2519
+V2*((90/6)-(49/36))
+p2520
+tp2521
+asg14
+g1482
+sS'part6_correct_attempt'
+p2522
+(lp2523
+S'0:00:00'
+p2524
+aV2*((91/6)-(49/4))
+p2525
+assg1483
+(dp2526
+S'part6_incorrect_attempt'
+p2527
+(lp2528
+(S'-1 day, 23:58:22'
+p2529
+V1/6*(1+4+9+16+25+36) + 1/6*(1+4+9+16+25+36)
+p2530
+tp2531
+asg14
+g1494
+sS'part6_correct_attempt'
+p2532
+(lp2533
+S'0:00:00'
+p2534
+aV2*(1/6*(1+4+9+16+25+36) - (1/6*(1+2+3+4+5+6))^2)
+p2535
+assg1495
+(dp2536
+S'part6_incorrect_attempt'
+p2537
+(lp2538
+(S'-1 day, 22:39:36'
+p2539
+V1/36(4+18+48+100+180+294+320+324+300+242+144)
+p2540
+tp2541
+asg14
+g1506
+sS'part6_correct_attempt'
+p2542
+(lp2543
+S'0:00:00'
+p2544
+aV329/6 - 49
+p2545
+assg1507
+(dp2546
+S'part6_incorrect_attempt'
+p2547
+(lp2548
+(S'-1 day, 23:58:39'
+p2549
+V2*((1/6+4/6+9/6+16/6+25/6+46/6) - 3.5*3.5)
+p2550
+tp2551
+asg14
+g1518
+sS'part6_correct_attempt'
+p2552
+(lp2553
+S'0:00:00'
+p2554
+aV2((1/6+4/6+9/6+16/6+25/6+36/6) -3.5*3.5)
+p2555
+assg1519
+(dp2556
+S'part6_incorrect_attempt'
+p2557
+(lp2558
+(S'-2 days, 22:15:43'
+p2559
+V23.2
+p2560
+tp2561
+asg14
+g1530
+sS'part6_correct_attempt'
+p2562
+(lp2563
+S'0:00:00'
+p2564
+aV2*(((1/6)+(4/6)+(9/6)+(16/6)+(25/6)+(36/6))-((1/6)+(2/6)+(3/6)+(4/6)+(5/6)+(6/6))^2)
+p2565
+assg1531
+(dp2566
+S'part6_incorrect_attempt'
+p2567
+(lp2568
+(S'-1 day, 23:57:41'
+p2569
+V2* (91/6 - 3.5)
+p2570
+tp2571
+asg14
+g1542
+sS'part6_correct_attempt'
+p2572
+(lp2573
+S'0:00:00'
+p2574
+aV2 * (91/6 - (3.5)^2)
+p2575
+assg1543
+(dp2576
+S'part6_incorrect_attempt'
+p2577
+(lp2578
+(S'-1 day, 23:58:40'
+p2579
+V182/6
+p2580
+tp2581
+asg14
+g1554
+sS'part6_correct_attempt'
+p2582
+(lp2583
+S'0:00:00'
+p2584
+aV2*(91/6 - 12.25)
+p2585
+assS'KimberlyLy'
+p2586
+(dp2587
+S'part6_incorrect_attempt'
+p2588
+(lp2589
+(S'-1 day, 22:44:26'
+p2590
+V5.83
+p2591
+tp2592
+asg14
+V2016-11-13 00:44:52
+p2593
+sS'part6_correct_attempt'
+p2594
+(lp2595
+S'0:00:00'
+p2596
+aV2*((1/6 + 4/6 + 9/6 +16/6 + 25/6 + 6) - (1/6 + 1/3 + 1/2 + 2/3 + 5/6 + 1)^2)
+p2597
+assg1567
+(dp2598
+S'part6_incorrect_attempt'
+p2599
+(lp2600
+(S'-1 day, 23:55:51'
+p2601
+V2*((1/6*(1+4+9+16+25+36)) + (1/6*(1+2+3+4+5+6)))
+p2602
+tp2603
+a(S'-1 day, 23:57:49'
+p2604
+V2*((1/6*(1+4+9+16+25+36)) - (1/6*(1+2+3+4+5+6)))
+p2605
+tp2606
+asg14
+g102
+sS'part6_correct_attempt'
+p2607
+(lp2608
+S'0:00:00'
+p2609
+aV((1/6*(1+4+9+16+25+36)) - (1/6*(1+2+3+4+5+6))^2) + ((1/6*(1+4+9+16+25+36)) - (1/6*(1+2+3+4+5+6))^2)
+p2610
+assS'zjteoh'
+p2611
+(dp2612
+S'part6_incorrect_attempt'
+p2613
+(lp2614
+(S'-1 day, 23:56:45'
+p2615
+V35/4
+p2616
+tp2617
+asg14
+V2016-11-10 08:14:32
+p2618
+sS'part6_correct_attempt'
+p2619
+(lp2620
+S'0:00:00'
+p2621
+aV35/6
+p2622
+assg1581
+(dp2623
+S'part6_incorrect_attempt'
+p2624
+(lp2625
+(S'-2 days, 5:34:29'
+p2626
+V5.84
+p2627
+tp2628
+a(S'-2 days, 5:35:10'
+p2629
+V5.8
+p2630
+tp2631
+asg14
+g1600
+sss.

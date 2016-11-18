@@ -1,0 +1,27 @@
+(dp0
+S'6'
+p1
+(dp2
+S'wtchiu'
+p3
+(dp4
+S'part6_incorrect_attempt'
+p5
+(lp6
+(S'0:00:00'
+p7
+V0+0
+p8
+tp9
+asS'first_attempt'
+p10
+V2016-11-11 07:55:13
+p11
+sS'part6_correct_attempt'
+p12
+(lp13
+S'0:00:00'
+p14
+aV0+0
+p15
+asss.
